@@ -1,14 +1,14 @@
-# Creando una Página Web con HTML5, CSS y JS
+# Práctica 1. Creando una página web con HTML5, CSS y JS.
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-- Aprender a crear una página web
-- Usar los elementos básicos de una página con HTML
-- Aplicar estilos a la página creada
-- Agregar código JavaScript 
+- Aprender a crear una página web.
+- Usar los elementos básicos de una página con HTML.
+- Aplicar estilos a la página creada.
+- Agregar código JavaScript.
 
 ## Objetivo Visual 
-Al realizar la práctica podrás ver en el navegador la siguiente imagen. 
+Al realizar la práctica, podrás ver en el navegador la siguiente imagen:
 
 ![imagen](../imagenes/capitulo1/saludo_inicial.png)
 
@@ -16,7 +16,7 @@ Al realizar la práctica podrás ver en el navegador la siguiente imagen.
 - 30 minutos.
 
 ## Tabla de ayuda:
-| Requisito | Descripcion|
+| Requisito | Descripción|
 | --- | --- |
 | Editor Código | Un editor de texto como VSCode, Sublime Text o similar. |
 | Terminal | Acceso a la terminal de comandos del sistema. |
@@ -27,9 +27,11 @@ Al realizar la práctica podrás ver en el navegador la siguiente imagen.
 
 Paso 1. Crear el directorio de trabajo "DesarrolloWeb" y los directorios para cada capitulo. 
 
-        Abre una ventana de linea de comandos CMD en tu directorio default.
-        Crea el directorio DesarrolloWeb
-        Cambiate al directorio DesarrolloWeb y crea un directorio por cada capitulo del curso
+Abre una ventana de línea de comandos CMD en tu directorio default.
+
+Crea el directorio `DesarrolloWeb`.
+
+Cambiate al directorio `DesarrolloWeb` y crea un directorio por cada capítulo del curso.
 
 ![imagen](../imagenes/capitulo1/crear_dir__Desarrollo_Web.png)
 
@@ -39,7 +41,7 @@ Paso 2. Cambiate al directorio capitulo1 e invoca el Visual Studio Code.
 
 Paso 3. Crear la pagina web inicial:
 
-    En tu editor de código y crea un nuevo archivo con la extensión .html, por ejemplo, index.html.
+En tu editor de código y crea un nuevo archivo con la extensión .html, por ejemplo, index.html.
 
 ![imagen](../imagenes/capitulo1/crear_index_html.png)
 
