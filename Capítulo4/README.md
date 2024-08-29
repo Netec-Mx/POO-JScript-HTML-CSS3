@@ -1,9 +1,9 @@
-# Aplicando Estilos a una Página Web con CSS
+# Práctica 4. Aplicando estilos a una página web con CSS.
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-- Aprender a aplicar estilos a una página web
-- Conocer los selectores mas usados y sus atributos
+- Aprender a aplicar estilos a una página web.
+- Conocer los selectores más usados y sus atributos.
 - Aplicar diversos tipos de fuentes y colores.
 - Manejar márgenes y distribución de componentes.
 
@@ -24,9 +24,9 @@ Al finalizar la práctica, serás capaz de:
 ## Instrucciones 
 
 ### Tarea 1. Diseñar y crear una página web.
-Paso 1. Abrir una ventana linea de comandos, cambiarse al directorio DesarrolloWeb\capitulo4 e invocar el VSC.
+**Paso 1.** Abre una ventana linea de comandos, cambiarse al directorio DesarrolloWeb\capitulo4 e invocar el VSC.
 
-Paso 2. Copiar los archivos de la práctica 3 al directorio del capítulo4.
+**Paso 2.** Copia los archivos de la `Práctica 3` al directorio del `capítulo4`.
 
 
     
