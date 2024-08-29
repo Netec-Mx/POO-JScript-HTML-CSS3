@@ -25,7 +25,7 @@ Al realizar la práctica podrás ver en el navegador la siguiente imagen:
 
 ### Tarea 1. Descripción de la tarea a realizar.
 
-**Paso 1.** Crear el directorio de trabajo "DesarrolloWeb" y los directorios para cada capítulo. 
+**Paso 1.** Crea el directorio de trabajo "DesarrolloWeb" y los directorios para cada capítulo. 
 
 Abre una ventana de línea de comandos CMD en tu directorio default.
 
@@ -39,7 +39,7 @@ Cámbiate al directorio `DesarrolloWeb` y crea un directorio por cada capítulo 
 
 ![imagen](../imagenes/capitulo1/cambiarse_cap1_invocar_vsc.png)
 
-**Paso 3.** Crear la página web inicial:
+**Paso 3.** Crea la página web inicial:
 
 Entra a tu editor de código y crea un nuevo archivo con la extensión `.html`, por ejemplo, `index.html.`
 
