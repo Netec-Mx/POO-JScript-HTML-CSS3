@@ -8,7 +8,7 @@ Al finalizar la práctica, serás capaz de:
 - Agregar código JavaScript.
 
 ## Objetivo Visual 
-Al realizar la práctica, podrás ver en el navegador la siguiente imagen:
+Al realizar la práctica podrás ver en el navegador la siguiente imagen:
 
 ![imagen](../imagenes/capitulo1/saludo_inicial.png)
 
@@ -25,29 +25,29 @@ Al realizar la práctica, podrás ver en el navegador la siguiente imagen:
 
 ### Tarea 1. Descripción de la tarea a realizar.
 
-Paso 1. Crear el directorio de trabajo "DesarrolloWeb" y los directorios para cada capitulo. 
+**Paso 1.** Crear el directorio de trabajo "DesarrolloWeb" y los directorios para cada capítulo. 
 
 Abre una ventana de línea de comandos CMD en tu directorio default.
 
 Crea el directorio `DesarrolloWeb`.
 
-Cambiate al directorio `DesarrolloWeb` y crea un directorio por cada capítulo del curso.
+Cámbiate al directorio `DesarrolloWeb` y crea un directorio por cada capítulo del curso.
 
 ![imagen](../imagenes/capitulo1/crear_dir__Desarrollo_Web.png)
 
-Paso 2. Cambiate al directorio capitulo1 e invoca el Visual Studio Code.
+**Paso 2.** Cámbiate al directorio `capitulo1` e invoca el Visual Studio Code.
 
 ![imagen](../imagenes/capitulo1/cambiarse_cap1_invocar_vsc.png)
 
-Paso 3. Crear la pagina web inicial:
+**Paso 3.** Crear la página web inicial:
 
-En tu editor de código y crea un nuevo archivo con la extensión .html, por ejemplo, index.html.
+Entra a tu editor de código y crea un nuevo archivo con la extensión `.html`, por ejemplo, `index.html.`
 
 ![imagen](../imagenes/capitulo1/crear_index_html.png)
 
-Paso 4. Estructura básica HTML:
+**Paso 4.** Estructura básica HTML:
 
-    Escribe el siguiente código en tu archivo index.html:
+Escribe el siguiente código en tu archivo `index.html`:
 
 ### HTML
 ```
@@ -68,8 +68,8 @@ Paso 4. Estructura básica HTML:
 </html>
 ```
 
+**Explicación:**
 ```
-Explicación:
 
 <!DOCTYPE html>: Declara el tipo de documento.
 <html>: Raíz de la página.
@@ -80,16 +80,16 @@ Explicación:
 <script>: Enlaza el archivo JavaScript script.js.
 ```
 
-Paso 5. Crea los archivos CSS y JavaScript:
+**Paso 5.** Crea los archivos CSS y JavaScript:
 
-    Crea dos archivos nuevos en la misma carpeta que index.html:
+Crea dos archivos nuevos en la misma carpeta que `index.html`:
     
     styles.css para el estilo.
     script.js para el código JavaScript.
 
-Paso 6. Estiliza con CSS:
+**Paso 6.** Estiliza con CSS:
 
-    En el archivo styles.css, agrega reglas CSS para cambiar la apariencia de los elementos:
+En el archivo `styles.css` agrega reglas CSS para cambiar la apariencia de los elementos:
 
 ### CSS
 ```
@@ -103,9 +103,9 @@ h1 {
 }
 ```
 
-Paso 7. Agrega interactividad con JavaScript:
+**Paso 7.** Agrega interactividad con JavaScript:
 
-    En el archivo script.js, escribe código JavaScript para agregar funcionalidad. Por ejemplo, puedes cambiar el color del texto al hacer clic en él:
+En el archivo `script.js` escribe código JavaScript para agregar funcionalidad. Por ejemplo, puedes cambiar el color del texto al hacer clic en él:
 
 ### JavaScript
 
@@ -117,17 +117,17 @@ h1.addEventListener('click', () => {
 });
 ```
 
-Paso 8. Abre el archivo en tu navegador:
+**Paso 8.** Abre el archivo en tu navegador:
 
-    Haz doble clic en index.html para abrirlo en tu navegador.
+Haz doble clic en `index.html` para abrirlo en tu navegador.
 
 
 ### Resultado esperado
 
-Despliegue de la pagina index.html de manera inicial:
+Despliegue de la página `index.html` de manera inicial:
 
 ![imagen](../imagenes/capitulo1/saludo_inicial.png)
 
-Despliegue de la pagina index.html después de dar clic en el mensaje "¡Hola mundo!"
+Despliegue de la página `index.html` después de dar clic en el mensaje "¡Hola mundo!"
 
 ![imagen](../imagenes/capitulo1/saludo_final.png)
