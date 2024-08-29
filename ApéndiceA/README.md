@@ -30,9 +30,9 @@ Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es 
 ## Instrucciones 
 
 ### Tarea 1. Crear clases Base y Derivadas en TypeScript.
-Paso 1. Definir la Clase Base
+**Paso 1.** Define la clase base.
 
-    Primero, definiremos una clase base llamada Persona. Esta clase tendrá un constructor para inicializar los atributos básicos y un método para mostrar información.
+Primero definiremos una clase base llamada `Persona`. Esta clase tendrá un constructor para inicializar los atributos básicos y un método para mostrar información.
 
 ### TypeScript
 ```
@@ -53,14 +53,14 @@ class Persona {
 }
 ```
 
-    Explicación:
+**Explicación:**
 
-    La clase Persona tiene dos propiedades: nombre (de tipo string) y edad (de tipo number).
-    El constructor de la clase toma dos parámetros (nombre y edad) y los asigna a las propiedades de la instancia.
-    El método mostrarInformacion() imprime en la consola los valores de nombre y edad.
+- La clase `Persona` tiene dos propiedades: nombre (de tipo string) y edad (de tipo number).
+- El constructor de la clase toma dos parámetros (nombre y edad) y los asigna a las propiedades de la instancia.
+- El método `mostrarInformacion()` imprime en la consola los valores de nombre y edad.
 
-Paso 2. Definir la Clase Derivada
-    Ahora, crearemos una clase derivada llamada Empleado que extiende de Persona. Esta clase tendrá propiedades adicionales y métodos específicos.
+**Paso 2.** Define la clase derivada.
+Ahora crearemos una clase derivada llamada `Empleado` que extiende de `Persona`. Esta clase tendrá propiedades adicionales y métodos específicos.
 
 ### TypeScript
 ```
@@ -82,14 +82,15 @@ class Empleado extends Persona {
     }
 }
 ```
-    Explicación:
+**Explicación:**
 
-    La clase Empleado usa la palabra clave extends para indicar que hereda de la clase Persona.
-    El constructor de Empleado llama a super(nombre, edad) para invocar el constructor de la clase base Persona, lo cual es necesario antes de poder utilizar this en una clase derivada.
-    Empleado introduce una nueva propiedad llamada puesto para almacenar el puesto de trabajo del empleado.
-    Se define un método adicional mostrarInformacionEmpleado() que llama al método mostrarInformacion() de la clase base y añade información específica del empleado.
-    Paso 3: Crear Instancias y Usar las Clases
-    Ahora, crearemos instancias de las clases Persona y Empleado y utilizaremos sus métodos.
+- La clase `Empleado` usa la palabra clave `extends` para indicar que hereda de la clase `Persona`.
+- El constructor de `Empleado` llama a `super(nombre, edad)` para invocar el constructor de la clase base `Persona`, lo cual es necesario antes de poder utilizar `this` en una clase derivada.
+- `Empleado` introduce una nueva propiedad llamada `puesto` para almacenar el puesto de trabajo del empleado.
+- Se define un método adicional `mostrarInformacionEmpleado()` que llama al método `mostrarInformacion()` de la clase base y añade información específica del empleado.
+
+**Paso 3.** Crea instancias y usa las clases.
+Ahora crearemos instancias de las clases `Persona` y `Empleado`, y utilizaremos sus métodos.
 
 ### TypeScript
 ```
@@ -103,15 +104,15 @@ empleado1.mostrarInformacionEmpleado(); // Salida: Nombre: Ana, Edad: 25
                                         //         Puesto: Desarrolladora
 ```
 
-    Explicación:
+**Explicación:**
 
-    Creamos una instancia de Persona llamada persona1 y llamamos a su método mostrarInformacion() para mostrar los datos.
-    Creamos una instancia de Empleado llamada empleado1. Llamamos al método mostrarInformacionEmpleado() que muestra tanto la información básica de la persona como el puesto del empleado.
+- Creamos una instancia de `Persona` llamada `persona1` y llamamos a su método `mostrarInformacion()` para mostrar los datos.
+- Creamos una instancia de `Empleado` llamada `empleado1`. Llamamos al método `mostrarInformacionEmpleado()` que muestra tanto la información básica de la persona como el puesto del empleado.
 
-Paso 4. Polimorfismo y Métodos Sobrescritos
-    En herencia, podemos sobrescribir métodos de la clase base en la clase derivada para cambiar su comportamiento.
+**Paso 4.** Polimorfismo y Métodos Sobrescritos.
 
-    Modificaremos el ejemplo para sobrescribir el método mostrarInformacion() en la clase Empleado.
+En herencia podemos sobrescribir métodos de la clase base en la clase derivada para cambiar su comportamiento.
+Modificaremos el ejemplo para sobrescribir el método `mostrarInformacion()` en la clase `Empleado`.
 
 ### TypeScript
 ```
@@ -137,13 +138,14 @@ empleado2.mostrarInformacion(); // Salida: Nombre: Carlos, Edad: 40
                                 //         Puesto: Gerente
 ```
 
-    Explicación:
+**Explicación:**
 
-    Sobrescribimos el método mostrarInformacion() en la clase Empleado para añadir información específica del empleado.
-    Usamos super.mostrarInformacion() para llamar al método de la clase base y luego añadimos la información adicional del puesto.
-    Resumen del Programa Completo.
+- Sobrescribimos el método `mostrarInformacion()` en la clase `Empleado` para añadir información específica del empleado.
+- Usamos `super.mostrarInformacion()` para llamar al método de la clase base y luego añadimos la información adicional del puesto.
 
-    Aquí está el código completo del ejemplo que integra todos los pasos anteriores:
+**Resumen del programa completo.**
+
+Aquí está el código completo del ejemplo que integra todos los pasos anteriores:
 
 ### TypeScript
 ```
