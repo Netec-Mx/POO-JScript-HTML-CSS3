@@ -28,9 +28,9 @@ Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es 
 
 ### Tarea 1. Descripción de la tarea a realizar.
 
-Paso 1. Declaración de Variables
+**Paso 1.** Declaración de Variables.
 
-    Primero, definimos algunas variables necesarias para nuestro programa. Utilizaremos una variable para almacenar el nombre de los estudiantes y otra para almacenar un arreglo de calificaciones.
+Primero definimos algunas variables necesarias para nuestro programa. Utilizaremos una variable para almacenar el nombre de los estudiantes y otra para almacenar un arreglo de calificaciones.
 
 ### JavaScript
 ```
@@ -40,15 +40,17 @@ let estudiantes = ["Ana", "Luis", "Juan", "María"]; // Arreglo con los nombres 
 let calificaciones = [7, 4, 8, 5]; // Arreglo con las calificaciones correspondientes a cada estudiante
 ```
 
-    Explicación:
+**Explicación:**
 
-    minAprobatoria es una variable que almacena la calificación mínima requerida para aprobar.
-    estudiantes es un arreglo que contiene nombres de estudiantes.
-    calificaciones es un arreglo paralelo al de estudiantes, es decir, la calificación de Ana es 7, la de Luis es 4, y así sucesivamente.
+`minAprobatoria` es una variable que almacena la calificación mínima requerida para aprobar.
 
-Paso 2. Definir el Ciclo para recorrer los estudiantes.
+`estudiantes` es un arreglo que contiene nombres de estudiantes.
 
-    Vamos a usar un ciclo para recorrer los estudiantes y verificar si aprobaron o no con base en su calificación.
+`calificaciones` es un arreglo paralelo al de estudiantes, es decir, la calificación de Ana es 7, la de Luis es 4, y así sucesivamente.
+
+**Paso 2.** Define el Ciclo para recorrer los estudiantes.
+
+Vamos a usar un ciclo para recorrer los estudiantes y verificar si aprobaron o no con base en su calificación.
 
 ### JavaScript
 ```
@@ -67,15 +69,15 @@ for (let i = 0; i < estudiantes.length; i++) {
 }
 ```
 
-    Explicación:
+**Explicación:**
 
-    Utilizamos un ciclo for para recorrer todos los elementos del arreglo de estudiantes.
-    En cada iteración, obtenemos el nombre y la calificación correspondiente usando estudiantes[i] y calificaciones[i].
-    Luego, usamos una sentencia if para verificar si la calificación es mayor o igual a minAprobatoria. Si es así, imprimimos que el estudiante ha aprobado. Si no, imprimimos que ha reprobado.
+Utilizamos un `ciclo for` para recorrer todos los elementos del arreglo de estudiantes.
+En cada iteración obtenemos el nombre y la calificación correspondiente usando `estudiantes[i]` y `calificaciones[i]`.
+Luego, usamos una `sentencia if` para verificar si la calificación es mayor o igual a `minAprobatoria`. Si es así, imprimimos que el estudiante ha aprobado. Si no, imprimimos que ha reprobado.
 
-Paso 3: Crear una Función para agregar un nuevo estudiante y su calificación.
+**Paso 3.** Crea una función para agregar un nuevo estudiante y su calificación.
 
-    Podemos crear una función para agregar un nuevo estudiante y su calificación al final de los arreglos.
+Podemos crear una función para agregar un nuevo estudiante y su calificación al final de los arreglos.
 
 ### JavaScript
 ```
@@ -89,13 +91,13 @@ function agregarEstudiante(nombre, calificacion) {
 agregarEstudiante("Carlos", 9);
 ```
 
-    Explicación:
+**Explicación:**
 
-    Definimos una función llamada agregarEstudiante que toma dos parámetros: el nombre del estudiante y su calificacion.
-    Utilizamos el método push() para añadir el nombre y la calificación al final de los arreglos estudiantes y calificaciones.
-    Luego de definir la función, la usamos para agregar un nuevo estudiante, "Carlos", con una calificación de 9.
+Definimos una función llamada `agregarEstudiante` que toma dos parámetros: el nombre del estudiante y su calificación.
+Utilizamos el método `push()` para añadir el nombre y la calificación al final de los arreglos `estudiantes` y `calificaciones`.
+Luego de definir la función, la usamos para agregar un nuevo estudiante, "Carlos", con una calificación de 9.
 
-Paso 4: Ejecutar el ciclo nuevamente después de agregar un nuevo estudiante.
+**Paso 4.** Ejecutar el ciclo nuevamente después de agregar un nuevo estudiante.
 
     Podemos ejecutar el ciclo de nuevo para verificar los resultados con el nuevo estudiante agregado.
 
@@ -114,9 +116,9 @@ for (let i = 0; i < estudiantes.length; i++) {
 }
 ```
 
-    Resumen del Programa Completo
+**Resumen del Programa Completo.**
     
-    Aquí está el programa completo con todos los pasos descritos:
+Aquí está el programa completo con todos los pasos descritos:
 
 ### JavaScript
 ```
@@ -159,14 +161,14 @@ for (let i = 0; i < estudiantes.length; i++) {
 }
 ```
 
-    Explicación General
+**Explicación General.**
 
-    El programa comienza declarando variables y arreglos para almacenar los datos de los estudiantes.
-    Utiliza un ciclo for para iterar sobre los estudiantes y sus calificaciones, usando una condición if para determinar si cada estudiante aprueba o no.
+El programa comienza declarando variables y arreglos para almacenar los datos de los estudiantes.
+Utiliza un `ciclo for` para iterar sobre los estudiantes y sus calificaciones, usando una `condición if` para determinar si cada estudiante aprueba o no.
     
-    Se define una función para agregar más estudiantes a la lista, lo que hace el programa extensible y flexible.
-    Finalmente, el ciclo se ejecuta de nuevo para mostrar los resultados después de agregar un nuevo estudiante.
-    Este programa demuestra el uso de variables, arreglos, ciclos y sentencias condicionales de manera clara y práctica.
+Se define una función para agregar más estudiantes a la lista, lo que hace al programa extensible y flexible.
+Finalmente, el ciclo se ejecuta de nuevo para mostrar los resultados después de agregar un nuevo estudiante.
+Este programa demuestra el uso de variables, arreglos, ciclos y sentencias condicionales de manera clara y práctica.
 
 
 ### Resultado esperado
