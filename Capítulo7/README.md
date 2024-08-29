@@ -1,16 +1,16 @@
-# Manejando Objetos con JavaScript
+# Práctica 7. Manejando Objetos con JavaScript.
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
-- Comprender el concepto de la Orientación a Objetos con JavaScript.
-- Familiarizarse con la herencia, uno de los pilares fundamentales de la programación orientada a objetos.
+- Comprender el concepto de la orientación a objetos con JavaScript.
+- Familiarizarte con la herencia, uno de los pilares fundamentales de la programación orientada a objetos.
 - Practicar la creación y uso de clases Base y Derivadas.
-- Aplicar Polimorfismo por medio de la Herencia e implementar y utilizar métodos Sobrescritos.
-- Familiarizarse con la creación de Instancias de Clases.
+- Aplicar Polimorfismo por medio de la herencia e implementar y utilizar métodos sobrescritos.
+- Familiarizarte con la creación de Instancias de Clases.
 
 
 ## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen. 
+Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen: 
 
 ![diagrama1](../images/img1.png)
 
@@ -28,9 +28,9 @@ Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es 
 ## Instrucciones 
 
 ### Tarea 1. Descripción de la tarea a realizar.
-Paso 1. Definir la Clase Base.
+**Paso 1.** Define la clase base.
 
-    Vamos a comenzar definiendo una clase base llamada Animal. Esta clase tendrá un constructor que inicializa el nombre del animal y un método para mostrar el nombre.
+Vamos a comenzar definiendo una clase base llamada `Animal`. Esta clase tendrá un constructor que inicializa el nombre del animal y un método para mostrar el nombre.
 
 ### JavaScript
 ```
@@ -48,14 +48,14 @@ class Animal {
 
 ```
 
-    Explicación:
+**Explicación:**
 
-    La clase Animal tiene un constructor que toma un parámetro nombre y lo asigna a una propiedad de instancia this.nombre.
-    El método mostrarNombre() simplemente imprime en la consola el nombre del animal.
+La clase `Animal` tiene un constructor que toma un parámetro `nombre` y lo asigna a una propiedad de instancia `this.nombre`.
+El método `mostrarNombre()` simplemente imprime en la consola el nombre del animal.
 
-Paso 2. Definir la Clase Derivada.
+**Paso 2.** Define la clase derivada.
 
-    Ahora, vamos a definir una clase llamada Perro que herede de la clase Animal. La clase Perro tendrá un método adicional para mostrar un sonido característico.
+Ahora, vamos a definir una clase llamada `Perro` que herede de la clase `Animal`. La clase `Perro` tendrá un método adicional para mostrar un sonido característico.
 
 ### JavaScript
 ```
@@ -78,16 +78,16 @@ class Perro extends Animal {
     }
 }
 ```
-    Explicación:
+**Explicación:**
 
-    La clase Perro usa la palabra clave extends para heredar de la clase Animal.
-    En el constructor de Perro, usamos super(nombre) para llamar al constructor de la clase base Animal. Esto inicializa la propiedad nombre en la instancia de Perro.
-    Añadimos una propiedad nueva raza que es específica para los perros.
-    Definimos dos métodos adicionales: ladrar(), que imprime un sonido característico del perro, y mostrarRaza(), que imprime la raza del perro.
+- La clase `Perro` usa la palabra clave `extends` para heredar de la clase `Animal`.
+- En el constructor de `Perro`, usamos `super(nombre)` para llamar al constructor de la clase base `Animal`. Esto inicializa la propiedad `nombre` en la instancia de `Perro`.
+- Añadimos una propiedad nueva, `raza`, que es específica para los perros.
+- Definimos dos métodos adicionales: `ladrar()`, que imprime un sonido característico del perro, y `mostrarRaza()`, que imprime la raza del perro.
 
-Paso 3. Crear Instancias y Usar las Clases.
+**Paso 3.** Crea Instancias y usa las Clases.
 
-    Ahora, crearemos instancias de nuestras clases y utilizaremos sus métodos para ver cómo funciona la herencia.
+Ahora, crearemos instancias de nuestras clases y utilizaremos sus métodos para ver cómo funciona la herencia.
 
 ### JavaScript
 ```
@@ -101,16 +101,16 @@ perro1.mostrarNombre(); // Salida: Este es un Firulais
 perro1.ladrar();        // Salida: Firulais está ladrando: ¡Guau, guau!
 perro1.mostrarRaza();   // Salida: Firulais es un Labrador
 ```
-    Explicación:
+**Explicación:**
 
-    Creamos una instancia de la clase Animal llamada animal1 y llamamos a su método mostrarNombre(), que muestra el nombre del animal.
-    Creamos una instancia de la clase Perro llamada perro1, que es un Labrador llamado Firulais. Llamamos a los métodos mostrarNombre(), ladrar(), y mostrarRaza() para demostrar que Perro tiene acceso a métodos de la clase base y también a sus propios métodos.
+- Creamos una instancia de la clase `Animal` llamada `animal1` y llamamos a su método `mostrarNombre()`, que muestra el nombre del animal.
+- Creamos una instancia de la clase `Perro` llamada `perro1`, que es un `Labrador` llamado `Firulais`. Llamamos a los métodos `mostrarNombre()`, `ladrar()`, y `mostrarRaza()` para demostrar que `Perro` tiene acceso a métodos de la clase base y también a sus propios métodos.
 
-Paso 4. Polimorfismo y Métodos Sobrescritos.
+**Paso 4.** Polimorfismo y Métodos Sobrescritos.
 
-    En herencia, a veces queremos que una clase derivada tenga su propia implementación de un método que también existe en la clase base. Esto se llama sobrescribir un método.
+En herencia a veces queremos que una clase derivada tenga su propia implementación de un método que también existe en la clase base. Esto se llama sobrescribir un método.
 
-    Agreguemos un método sobrescrito en la clase Perro.
+Agreguemos un método sobrescrito en la clase `Perro`.
 
 ### JavaScript
 ```
@@ -143,14 +143,14 @@ perro2.mostrarNombre(); // Salida: Este es un Rex
 perro2.ladrar();        // Salida: Rex está ladrando: ¡Guau, guau!
 ```
 
-    Explicación:
+**Explicación:**
 
-    En la clase Perro, sobrescribimos el método mostrarNombre(). Utilizamos super.mostrarNombre() para llamar al método original de la clase base y luego agregamos más información específica de la clase Perro.
-    Creamos una instancia de Perro llamada perro2 y demostramos cómo el método sobrescrito mostrarNombre() imprime información adicional específica de los perros.
+- En la clase `Perro`, sobrescribimos el método `mostrarNombre()`. Utilizamos `super.mostrarNombre()` para llamar al método original de la clase base y luego agregamos más información específica de la clase `Perro`.
+- Creamos una instancia de `Perro` llamada `perro2` y demostramos cómo el método sobrescrito `mostrarNombre()` imprime información adicional específica de los perros.
 
-    Resumen del Programa Completo
+**Resumen del programa completo.**
 
-    Aquí está el código completo del ejemplo, integrando todos los pasos anteriores:
+Aquí está el código completo del ejemplo, integrando todos los pasos anteriores:
 
 ### JavaScript
 ```
