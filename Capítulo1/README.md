@@ -25,7 +25,7 @@ Al realizar la práctica podrás ver en el navegador la siguiente imagen:
 
 ### Tarea 1. Descripción de la tarea a realizar.
 
-**Paso 1.** Crea el directorio de trabajo "DesarrolloWeb" y los directorios para cada capítulo. 
+**Paso 1.** Crea el directorio de trabajo `DesarrolloWeb` y los directorios para cada capítulo. 
 
 Abre una ventana de línea de comandos CMD en tu directorio default.
 
@@ -69,23 +69,32 @@ Escribe el siguiente código en tu archivo `index.html`:
 ```
 
 **Explicación:**
-```
 
-<!DOCTYPE html>: Declara el tipo de documento.
-<html>: Raíz de la página.
-<head>: Contiene metadatos y enlaces a archivos externos.
-<body>: Contiene el contenido visible de la página.
-<title>: Define el título que aparece en la pestaña del navegador.
-<link>: Enlaza el archivo CSS styles.css.
-<script>: Enlaza el archivo JavaScript script.js.
-```
+`<!DOCTYPE html>`: Declara el tipo de documento.
+
+`<html>`: Raíz de la página.
+
+`<head>`: Contiene metadatos y enlaces a archivos externos.
+
+`<body>`: Contiene el contenido visible de la página.
+
+`<title>`: Define el título que aparece en la pestaña del navegador.
+
+`<link>`: Enlaza el archivo CSS styles.css.
+
+`<script>`: Enlaza el archivo JavaScript script.js.
 
 **Paso 5.** Crea los archivos CSS y JavaScript:
 
 Crea dos archivos nuevos en la misma carpeta que `index.html`:
     
-    styles.css para el estilo.
-    script.js para el código JavaScript.
+- Para el estilo:
+
+        styles.css
+
+- Para el código JavaScript:
+
+        script.js
 
 **Paso 6.** Estiliza con CSS:
 
@@ -105,7 +114,8 @@ h1 {
 
 **Paso 7.** Agrega interactividad con JavaScript:
 
-En el archivo `script.js` escribe código JavaScript para agregar funcionalidad. Por ejemplo, puedes cambiar el color del texto al hacer clic en él:
+En el archivo `script.js` escribe código JavaScript para agregar funcionalidad. Por ejemplo, puedes cambiar el color
+del texto al hacer clic en él:
 
 ### JavaScript
 
