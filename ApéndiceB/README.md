@@ -2,20 +2,18 @@
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
+
 - Conocer qué es Angular y su papel en el desarrollo de aplicaciones web.
 
+## Objetivo visual:
 
-
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen: 
-
-![diagrama1](../images/img1.png)
+![[diagrama1](../images/img1.png)](https://github.com/Netec-Mx/POO-JScript-HTML-CSS3/blob/main/imagenes/Capitulo6/componentes.png)
 
 ## Duración aproximada:
 - 60 minutos.
 
 ## Tabla de ayuda:
-| Requisito | Descripcion|
+| Requisito | Descripción|
 | --- | --- |
 | Navegador Web | Navegador web como Chrome, Firefox, Safari. |
 | Editor Código | Visual Studio Code. |
@@ -28,16 +26,20 @@ Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es 
 ## Instrucciones 
 
 ### Tarea 1. Crear un Proyecto en Angular que defina un componente básico.
+
 **Paso 1.** Crea un nuevo proyecto Angular.
+
 Antes de crear un componente, necesitamos un proyecto Angular. Si no tienes uno, puedes crear un nuevo proyecto utilizando Angular CLI (Command Line Interface). Si ya tienes un proyecto existente, puedes omitir este paso.
 
-**Paso 2 (opcional).** Instala Angular CLI (si aún no lo tienes instalado):
+**Opcional: Paso 2.** Instala Angular CLI (si aún no lo tienes instalado):
 
     npm install -g @angular/cli
 
 **Paso 3.** Crea un nuevo proyecto Angular:
 
-    ng new my-angular-app
+```
+ng new my-angular-app
+```
 
 `my-angular-app` es el nombre del proyecto. Puedes elegir cualquier nombre.
 
@@ -45,7 +47,7 @@ Antes de crear un componente, necesitamos un proyecto Angular. Si no tienes uno,
 
     cd my-angular-app
 
-**Paso 4.** Crea un nuevo componente
+**Paso 4.** Crea un nuevo componente.
 - Ahora que tenemos un proyecto Angular, podemos crear un nuevo componente llamado `GreetingComponent`.
 - Usa Angular CLI para generar el componente:
 
