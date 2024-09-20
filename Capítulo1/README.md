@@ -141,3 +141,5 @@ Despliegue de la página `index.html` de manera inicial:
 Despliegue de la página `index.html` después de dar clic en el mensaje "¡Hola mundo!".
 
 ![imagen](../imagenes/capitulo1/saludo_final.png)
+### Índice:
+###- [Práctica 2. Instalación del Software de Desarrollo Web.](../Capítulo2/README.md)
