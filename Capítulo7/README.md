@@ -9,25 +9,23 @@ Al finalizar la práctica, serás capaz de:
 - Familiarizarte con la creación de Instancias de Clases.
 
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen: 
+## Objetivo visual:
 
-![diagrama1](../images/img1.png)
+![[diagrama1](../images/img1.png)](https://github.com/Netec-Mx/POO-JScript-HTML-CSS3/blob/main/imagenes/Capitulo6/orientacion_objetos.png)
 
 ## Duración aproximada:
-- xx minutos.
+- 60 minutos.
 
 ## Tabla de ayuda:
-| Requisito | Descripcion|
+| Requisito | Descripción|
 | --- | --- |
-| Navegador Web | Navegador web como Chrome, Firefox, Safari. |
+| Navegador Web | Navegador web como Chrome, Firefox o Safari. |
 | Editor Código | Visual Studio Code. |
 | Live Preview | Instalar la extension "Live Preview" en Visual Studio Code. |
 | Terminal | Acceso a la terminal de comandos del sistema. |
 
-## Instrucciones 
+## Instrucciones:
 
-### Tarea 1. Descripción de la tarea a realizar.
 **Paso 1.** Define la clase base.
 
 Vamos a comenzar definiendo una clase base llamada `Animal`. Esta clase tendrá un constructor que inicializa el nombre del animal y un método para mostrar el nombre.
