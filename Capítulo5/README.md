@@ -8,29 +8,26 @@ Al finalizar la práctica, serás capaz de:
 - Crear y llamar a funciones básicas de JavaScript.
 
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen: 
+## Objetivo visual: 
 
-![diagrama1](../images/img1.png)
+![[diagrama1](../images/img1.png)](https://github.com/Netec-Mx/POO-JScript-HTML-CSS3/blob/main/imagenes/capitulo3/funcion_javascript.png)
 
 ## Duración aproximada:
 - 60 minutos.
 
 ## Tabla de ayuda:
-| Requisito | Descripcion|
+| Requisito | Descripción|
 | --- | --- |
-| Navegador Web | Navegador web como Chrome, Firefox, Safari. |
+| Navegador Web | Navegador web como Chrome, Firefox o Safari. |
 | Editor Código | Visual Studio Code. |
 | Live Preview | Instalar la extension "Live Preview" en Visual Studio Code. |
 | Terminal | Acceso a la terminal de comandos del sistema. |
 
-## Instrucciones 
-
-### Tarea 1. Descripción de la tarea a realizar.
+## Instrucciones:
 
 **Paso 1.** Declaración de Variables.
 
-Primero definimos algunas variables necesarias para nuestro programa. Utilizaremos una variable para almacenar el nombre de los estudiantes y otra para almacenar un arreglo de calificaciones.
+Para iniciar, se definieron algunas variables necesarias para nuestro programa. Utiliza una variable para almacenar el nombre de los estudiantes y otra para almacenar un arreglo de calificaciones.
 
 ### JavaScript
 ```
@@ -116,8 +113,8 @@ for (let i = 0; i < estudiantes.length; i++) {
 }
 ```
 
-**Resumen del Programa Completo.**
-    
+**Resumen del programa completo.**
+
 Aquí está el programa completo con todos los pasos descritos:
 
 ### JavaScript
@@ -171,7 +168,7 @@ Finalmente, el ciclo se ejecuta de nuevo para mostrar los resultados después de
 Este programa demuestra el uso de variables, arreglos, ciclos y sentencias condicionales de manera clara y práctica.
 
 
-### Resultado esperado
+### Resultado esperado:
 
     Ana ha aprobado con una calificación de 7
     Luis ha reprobado con una calificación de 4
