@@ -144,6 +144,6 @@ Existen diferentes servicios de imágenes precreadas, por ejemplo: `Tabler Icons
 
 ![imagen](../imagenes/capitulo3/objetivo_visual.png)
 
-### Índice:
-###- [Práctica 2. Instalación del Software de Desarrollo Web.](../Capítulo2/README.md)
-###- [Práctica 4. Aplicación de Hojas de Estilo en Cascada.](../Capítulo4/README.md)
+## [Índice:](../README.md)<br>
+## - [Práctica 2. Instalación del Software de Desarrollo Web.](../Capítulo2/README.md)<br>
+## - [Práctica 4. Aplicación de Hojas de Estilo en Cascada.](../Capítulo4/README.md)<br>
