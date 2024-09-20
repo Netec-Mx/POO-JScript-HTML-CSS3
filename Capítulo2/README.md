@@ -6,7 +6,7 @@ Al finalizar la práctica, serás capaz de:
 - Conocer qué herramientas se utilizan en el desarrollo web.
 - Aprender a descargar e instalar las herramientas de desarrollo web.
 
-## Objetivo Visual 
+## Objetivo visual:
 Herramientas para el desarrollo web: 
 
 ![imagen](../imagenes/capitulo2/Herramientas.png)
@@ -25,7 +25,7 @@ Herramientas para el desarrollo web:
 | Terminal | Acceso a la terminal de comandos del sistema. |
 
 
-## Instrucciones 
+## Instrucciones:
 Instala los productos para desarrollo web:
     
 1. Navegadores:
@@ -60,7 +60,7 @@ Instala los productos para desarrollo web:
 
 **Paso 3.** Descarga desde https://nodejs.org/es/ Node.js e instala la última versión.
 
-- Ingresa al sitio https://nodejs.org/es/
+- Ingresa al sitio: https://nodejs.org/es/
 - Elige Windows Installer (.msi) 64 bits. 
 - Descarga la versión recomendada para la mayoría de las instalaciones.
 - Ejecuta el instalador.
@@ -84,7 +84,7 @@ Instala los productos para desarrollo web:
 
             npm install -g @angular/cli
 
-### Resultado esperado
+### Resultado esperado:
 Verifica la instalación de los productos dando los siguientes comandos en la terminal de Windows:
 
 ![imagen](../imagenes/capitulo2/Instalacion.png)
