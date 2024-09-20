@@ -88,6 +88,6 @@ Instala los productos para desarrollo web:
 Verifica la instalación de los productos dando los siguientes comandos en la terminal de Windows:
 
 ![imagen](../imagenes/capitulo2/Instalacion.png)
-### Índice:
-###- [Práctica 1. Creando una página web.](../Capítulo1/README.md)
-###- [Práctica 3. Diseñando y estructurando una página web con HTML.](../Capítulo3/README.md)
+## [Índice:](../README.md)<br>
+## - [Práctica 1. Creando una página web.](../Capítulo1/README.md)<br>
+## - [Práctica 3. Diseñando y estructurando una página web con HTML.](../Capítulo3/README.md)<br>
