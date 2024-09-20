@@ -209,3 +209,6 @@ En este ejemplo hemos cubierto los siguientes pasos para crear y usar un compone
     Salida: 
 
     ¡Hola, bienvenido a mi componente Angular!
+
+## [Índice:](../README.md)<br>
+## - [Práctica 8. Manejando Objetos con TypeScript.](../ApéndiceA/README.md)<br>
