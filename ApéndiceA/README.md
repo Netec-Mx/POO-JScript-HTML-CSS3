@@ -220,3 +220,7 @@ node personal.js
     
     Nombre: Carlos, Edad: 40
     Puesto: Gerente
+
+## [Índice:](../README.md)<br>
+## - [Práctica 7. Manejando Objetos con JavaScript.](../Capítulo7/README.md)<br>
+## - [Práctica 9. Creación de Componentes en Angular.](../ApéndiceB/README.md)<br>
