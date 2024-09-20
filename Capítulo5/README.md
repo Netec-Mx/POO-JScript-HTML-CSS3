@@ -179,6 +179,7 @@ Este programa demuestra el uso de variables, arreglos, ciclos y sentencias condi
     Juan ha aprobado con una calificación de 8
     María ha reprobado con una calificación de 5
     Carlos ha aprobado con una calificación de 9
+
 ## [Índice:](../README.md)<br>
 ## - [Práctica 4. Aplicación de Hojas de Estilo en Cascada.](../Capítulo4/README.md)<br>
 ## - [Práctica 6. Usando el Protocolo HTTP para acceder datos en la web.](../Capítulo6/README.md)<br>
