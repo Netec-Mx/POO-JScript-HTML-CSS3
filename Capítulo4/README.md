@@ -33,6 +33,6 @@ Al finalizar la práctica, serás capaz de:
 
 ![[imagen](../imagenes/capitulo4/objetivo_visual.png)](https://github.com/Netec-Mx/POO-JScript-HTML-CSS3/blob/main/imagenes/capitulo3/estilos_aplicados.png)
 
-### Índice:
-### - [Práctica 3. Diseñando y estructurando una página web con HTML.](../Capítulo3/README.md)
-###- [Práctica 5. Programando con JavaScript.](../Capítulo5/README.md)
+## [Índice:](../README.md)<br>
+## - [Práctica 3. Diseñando y estructurando una página web con HTML.](../Capítulo3/README.md)<br>
+## - [Práctica 5. Programando con JavaScript.](../Capítulo5/README.md)<br>
