@@ -8,23 +8,22 @@ Al finalizar la práctica, serás capaz de:
 - Obtener los fundamentos para trabajar con APIs REST.
 
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen: 
+## Objetivo visual:
 
-![diagrama1](../images/img1.png)
+![[diagrama1](../images/img1.png)](https://github.com/Netec-Mx/POO-JScript-HTML-CSS3/blob/main/imagenes/Capitulo6/ciclo_protocolo_HTTP.png)
 
 ## Duración aproximada:
 - 60 minutos.
 
 ## Tabla de ayuda:
-| Requisito | Descripcion|
+| Requisito | Descripción|
 | --- | --- |
-| Navegador Web | Navegador web como Chrome, Firefox, Safari. |
+| Navegador Web | Navegador web como Chrome, Firefox o Safari. |
 | Editor Código | Visual Studio Code. |
 | Live Preview | Instalar la extension "Live Preview" en Visual Studio Code. |
 | Terminal | Acceso a la terminal de comandos del sistema. |
 
-## Instrucciones 
+## Instrucciones:
 
 ### Tarea 1. Crear un programa en JavaScript que acceda datos en la internet.
 
@@ -34,7 +33,7 @@ Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es 
 
 **Paso 2.** Configuración Básica del Proyecto.
 
-Primero necesitamos crear un archivo HTML para alojar nuestro código JavaScript. Puedes crear un archivo llamado `index.html` y agregar el siguiente código:
+Para iniciar, necesitas crear un archivo HTML para alojar nuestro código JavaScript. Puedes crear un archivo llamado `index.html` y agregar el siguiente código:
 
 ### HTML
 ```
