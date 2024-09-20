@@ -1,4 +1,4 @@
-# Práctica 4. Aplicando estilos a una página web con CSS.
+# Práctica 4. Aplicación de Hojas de Estilo en Cascada.
 
 ## Objetivo de la práctica:
 Al finalizar la práctica, serás capaz de:
@@ -7,14 +7,14 @@ Al finalizar la práctica, serás capaz de:
 - Aplicar diversos tipos de fuentes y colores.
 - Manejar márgenes y distribución de componentes.
 
-## Objetivo Visual 
-![imagen](../imagenes/capitulo4/objetivo_visual.png)
+## Objetivo visual:
+![[imagen](../imagenes/capitulo4/objetivo_visual.png)](https://github.com/Netec-Mx/POO-JScript-HTML-CSS3/blob/main/imagenes/capitulo3/estructura_css.jpg)
 
 ## Duración aproximada:
 - 60 minutos.
 
 ## Tabla de ayuda:
-| Requisito | Descripcion|
+| Requisito | Descripción|
 | --- | --- |
 | Navegador Web | Navegador web como Chrome, Firefox, Safari. |
 | Editor Código | Visual Studio Code. |
@@ -24,14 +24,13 @@ Al finalizar la práctica, serás capaz de:
 ## Instrucciones 
 
 ### Tarea 1. Diseñar y crear una página web.
+
 **Paso 1.** Abre una ventana linea de comandos, cambiarse al directorio DesarrolloWeb\capitulo4 e invocar el VSC.
 
 **Paso 2.** Copia los archivos de la `Práctica 3` al directorio del `capítulo4`.
-
-
     
-### Resultado esperado
+### Resultado esperado:
 
-![imagen](../imagenes/capitulo4/objetivo_visual.png)
+![[imagen](../imagenes/capitulo4/objetivo_visual.png)](https://github.com/Netec-Mx/POO-JScript-HTML-CSS3/blob/main/imagenes/capitulo3/estilos_aplicados.png)
 
 
