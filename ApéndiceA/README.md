@@ -9,16 +9,15 @@ Al finalizar la práctica, serás capaz de:
 - Familiarizarse con la creación de Instancias de Clases.
 
 
-## Objetivo Visual 
-Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es la siguiente imagen: 
+## Objetivo visual:
 
-![diagrama1](../images/img1.png)
+![[diagrama1](../images/img1.png)](https://github.com/Netec-Mx/POO-JScript-HTML-CSS3/blob/main/imagenes/Capitulo6/OrientacionObjetosTS.png)
 
 ## Duración aproximada:
 - 60 minutos.
 
 ## Tabla de ayuda:
-| Requisito | Descripcion|
+| Requisito | Descripción|
 | --- | --- |
 | Navegador Web | Navegador web como Chrome, Firefox, Safari. |
 | Editor Código | Visual Studio Code. |
@@ -27,10 +26,12 @@ Crear un diagrama o imagen que resuma las actividades a realizar, un ejemplo es 
 | Lenguaje TypeScript | Lenguaje instalado en el S.O.|
 | Terminal | Acceso a la terminal de comandos del sistema. |
 
-## Instrucciones 
+## Instrucciones:
 
 ### Tarea 1. Crear clases Base y Derivadas en TypeScript.
 **Paso 1.** Define la clase base.
+
+Crea y abre un archivo con VSC llamado `personal.ts` en el directorios actual.
 
 Primero definiremos una clase base llamada `Persona`. Esta clase tendrá un constructor para inicializar los atributos básicos y un método para mostrar información.
 
@@ -60,6 +61,7 @@ class Persona {
 - El método `mostrarInformacion()` imprime en la consola los valores de nombre y edad.
 
 **Paso 2.** Define la clase derivada.
+
 Ahora crearemos una clase derivada llamada `Empleado` que extiende de `Persona`. Esta clase tendrá propiedades adicionales y métodos específicos.
 
 ### TypeScript
@@ -112,6 +114,7 @@ empleado1.mostrarInformacionEmpleado(); // Salida: Nombre: Ana, Edad: 25
 **Paso 4.** Polimorfismo y Métodos Sobrescritos.
 
 En herencia podemos sobrescribir métodos de la clase base en la clase derivada para cambiar su comportamiento.
+
 Modificaremos el ejemplo para sobrescribir el método `mostrarInformacion()` en la clase `Empleado`.
 
 ### TypeScript
@@ -190,6 +193,20 @@ empleado1.mostrarInformacion(); // Salida: Nombre: Ana, Edad: 25
 const empleado2 = new Empleado("Carlos", 40, "Gerente");
 empleado2.mostrarInformacion(); // Salida: Nombre: Carlos, Edad: 40
                                 //         Puesto: Gerente
+```
+
+**Paso 5.** Transpila y ejecuta el código del ejercicio.
+
+Ahora, transpila con TSC y ejecuta el código con Node.js
+
+**Línea de comandos.**
+
+```
+tsc personal.ts
+```
+
+```
+node personal.js
 ```
 
 ### Resultado esperado
