@@ -7,7 +7,7 @@ Al finalizar la práctica, serás capaz de:
 - Aplicar estilos a la página creada.
 - Agregar código JavaScript.
 
-## Objetivo Visual 
+## Objetivo visual:
 Al realizar la práctica podrás ver en el navegador la siguiente imagen:
 
 ![imagen](../imagenes/capitulo1/saludo_inicial.png)
@@ -41,7 +41,7 @@ Cámbiate al directorio `DesarrolloWeb` y crea un directorio por cada capítulo 
 
 **Paso 3.** Crea la página web inicial:
 
-Entra a tu editor de código y crea un nuevo archivo con la extensión `.html`, por ejemplo, `index.html.`
+Entra a tu editor de código y crea un nuevo archivo con la extensión `.html`, por ejemplo: `index.html.`
 
 ![imagen](../imagenes/capitulo1/crear_index_html.png)
 
@@ -132,12 +132,12 @@ h1.addEventListener('click', () => {
 Haz doble clic en `index.html` para abrirlo en tu navegador.
 
 
-### Resultado esperado
+### Resultado esperado:
 
 Despliegue de la página `index.html` de manera inicial:
 
 ![imagen](../imagenes/capitulo1/saludo_inicial.png)
 
-Despliegue de la página `index.html` después de dar clic en el mensaje "¡Hola mundo!"
+Despliegue de la página `index.html` después de dar clic en el mensaje "¡Hola mundo!".
 
 ![imagen](../imagenes/capitulo1/saludo_final.png)
