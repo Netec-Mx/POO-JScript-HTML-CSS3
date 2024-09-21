@@ -8,7 +8,8 @@ Al finalizar la práctica, serás capaz de:
 - Manejar márgenes y distribución de componentes.
 
 ## Objetivo visual:
-![imagen](.....imagenes/capitulo3/estructura_css.jpg)
+
+![[imagen](..imagenes/capitulo3/estructura_css.jpg)](https://github.com/Netec-Mx/POO-JScript-HTML-CSS3/blob/main/imagenes/capitulo3/estructura_css.jpg)
 
 ## Duración aproximada:
 - 60 minutos.
