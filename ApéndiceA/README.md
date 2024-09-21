@@ -11,12 +11,14 @@ Al finalizar la práctica, serás capaz de:
 
 ## Objetivo visual:
 
-![[diagrama1](../images/img1.png)](https://github.com/Netec-Mx/POO-JScript-HTML-CSS3/blob/main/imagenes/Capitulo6/OrientacionObjetosTS.png)
+![diagrama1](../imagenes/Capitulo6/OrientacionObjetosTS.png)
 
 ## Duración aproximada:
+
 - 60 minutos.
 
 ## Tabla de ayuda:
+
 | Requisito | Descripción|
 | --- | --- |
 | Navegador Web | Navegador web como Chrome, Firefox, Safari. |
@@ -209,7 +211,7 @@ tsc personal.ts
 node personal.js
 ```
 
-### Resultado esperado
+### Resultado esperado:
 
     Salida: 
 
@@ -222,5 +224,5 @@ node personal.js
     Puesto: Gerente
 
 ## [Índice:](../README.md)<br>
-## - [Práctica 7. Manejando Objetos con JavaScript.](../Capítulo7/README.md)<br>
-## - [Práctica 9. Creación de Componentes en Angular.](../ApéndiceB/README.md)<br>
+## [Práctica 7. Manejando Objetos con JavaScript.](../Capítulo7/README.md)<br>
+## [Práctica 9. Creación de Componentes en Angular.](../ApéndiceB/README.md)<br>
