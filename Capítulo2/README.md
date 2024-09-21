@@ -15,7 +15,7 @@ Herramientas para el desarrollo web:
 - 60 minutos.
 
 ## Tabla de ayuda:
-| Requisito | Descripcion|
+| Requisito | Descripción|
 | --- | --- |
 | Navegador | Tener instalado Chrome, Firefox, Edge o Safari. |
 | Herramienta de Desarrollo | Descargar e instalar Visual Studio Code. |
