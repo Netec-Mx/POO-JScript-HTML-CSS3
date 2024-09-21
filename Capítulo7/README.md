@@ -11,12 +11,13 @@ Al finalizar la práctica, serás capaz de:
 
 ## Objetivo visual:
 
-![[diagrama1](../images/img1.png)](https://github.com/Netec-Mx/POO-JScript-HTML-CSS3/blob/main/imagenes/Capitulo6/orientacion_objetos.png)
+![diagrama1](../imagenes/Capitulo6/orientacion_objetos.png)
 
 ## Duración aproximada:
 - 60 minutos.
 
 ## Tabla de ayuda:
+
 | Requisito | Descripción|
 | --- | --- |
 | Navegador Web | Navegador web como Chrome, Firefox o Safari. |
@@ -214,5 +215,5 @@ perro2.ladrar();        // Salida: Rex está ladrando: ¡Guau, guau!
     Rex está ladrando: ¡Guau, guau!
 
 ## [Índice:](../README.md)<br>
-## - [Práctica 6. Usando el Protocolo HTTP para acceder datos en la web.](../Capítulo6/README.md)<br>
-## - [Práctica 8. Manejando Objetos con TypeScript.](../ApéndiceA/README.md)<br>
+## [Práctica 6. Usando el Protocolo HTTP para acceder datos en la web.](../Capítulo6/README.md)<br>
+## [Práctica 8. Manejando Objetos con TypeScript.](../ApéndiceA/README.md)<br>
