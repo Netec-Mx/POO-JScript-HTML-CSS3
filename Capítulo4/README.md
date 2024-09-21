@@ -33,7 +33,7 @@ Al finalizar la práctica, serás capaz de:
     
 ### Resultado esperado:
 
-![[imagen](../imagenes/capitulo4/objetivo_visual.png)](https://github.com/Netec-Mx/POO-JScript-HTML-CSS3/blob/main/imagenes/capitulo3/estilos_aplicados.png)
+![imagen](../imagenes/capitulo3/estilos_aplicados.png)
 
 ## [Índice:](../README.md)<br>
 ## - [Práctica 3. Diseñando y estructurando una página web con HTML.](../Capítulo3/README.md)<br>
