@@ -16,6 +16,7 @@ Al realizar la práctica podrás ver en el navegador la siguiente imagen:
 - 30 minutos.
 
 ## Tabla de ayuda:
+
 | Requisito | Descripción|
 | --- | --- |
 | Editor Código | Un editor de texto como VSCode, Sublime Text o similar. |
