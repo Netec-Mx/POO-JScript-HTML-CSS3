@@ -7,12 +7,14 @@ Al finalizar la práctica, serás capaz de:
 
 ## Objetivo visual:
 
-![[diagrama1](../images/img1.png)](https://github.com/Netec-Mx/POO-JScript-HTML-CSS3/blob/main/imagenes/Capitulo6/componentes.png)
+![diagrama1](../imagenes/Capitulo6/componentes.png)
 
 ## Duración aproximada:
+
 - 60 minutos.
 
 ## Tabla de ayuda:
+
 | Requisito | Descripción|
 | --- | --- |
 | Navegador Web | Navegador web como Chrome, Firefox, Safari. |
@@ -23,7 +25,7 @@ Al finalizar la práctica, serás capaz de:
 | Framework Angular | Angular instalado en el S.O.|
 | Terminal | Acceso a la terminal de comandos del sistema. |
 
-## Instrucciones 
+## Instrucciones:
 
 ### Tarea 1. Crear un Proyecto en Angular que defina un componente básico.
 
@@ -204,11 +206,11 @@ En este ejemplo hemos cubierto los siguientes pasos para crear y usar un compone
 - Usa el componente en la plantilla principal de la aplicación (app.component.html).
 - Ejecuta la aplicación y visualiza el resultado.
 
-### Resultado esperado
+### Resultado esperado:
 
     Salida: 
 
     ¡Hola, bienvenido a mi componente Angular!
 
 ## [Índice:](../README.md)<br>
-## - [Práctica 8. Manejando Objetos con TypeScript.](../ApéndiceA/README.md)<br>
+## [Práctica 8. Manejando Objetos con TypeScript.](../ApéndiceA/README.md)<br>
