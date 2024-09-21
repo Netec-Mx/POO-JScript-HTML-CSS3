@@ -10,12 +10,14 @@ Al finalizar la práctica, serás capaz de:
 
 ## Objetivo visual: 
 
-![[diagrama1](../images/img1.png)](https://github.com/Netec-Mx/POO-JScript-HTML-CSS3/blob/main/imagenes/capitulo3/funcion_javascript.png)
+![imagen](../imagenes/capitulo3/funcion_javascript.png)
 
 ## Duración aproximada:
+
 - 60 minutos.
 
 ## Tabla de ayuda:
+
 | Requisito | Descripción|
 | --- | --- |
 | Navegador Web | Navegador web como Chrome, Firefox o Safari. |
@@ -181,5 +183,5 @@ Este programa demuestra el uso de variables, arreglos, ciclos y sentencias condi
     Carlos ha aprobado con una calificación de 9
 
 ## [Índice:](../README.md)<br>
-## - [Práctica 4. Aplicación de Hojas de Estilo en Cascada.](../Capítulo4/README.md)<br>
-## - [Práctica 6. Usando el Protocolo HTTP para acceder datos en la web.](../Capítulo6/README.md)<br>
+## [Práctica 4. Aplicación de Hojas de Estilo en Cascada.](../Capítulo4/README.md)<br>
+## [Práctica 6. Usando el Protocolo HTTP para acceder datos en la web.](../Capítulo6/README.md)<br>
