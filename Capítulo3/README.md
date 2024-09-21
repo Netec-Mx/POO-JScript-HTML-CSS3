@@ -17,6 +17,7 @@ Al finalizar la práctica, serás capaz de:
 - 60 minutos.
 
 ## Tabla de ayuda:
+
 | Requisito | Descripcion|
 | --- | --- |
 | Navegador Web | Navegador web como Chrome, Firefox, Safari. |
@@ -24,7 +25,7 @@ Al finalizar la práctica, serás capaz de:
 | Live Preview | Instalar la extension "Live Preview" en Visual Studio Code. |
 | Terminal | Acceso a la terminal de comandos del sistema. |
 
-## Instrucciones 
+## Instrucciones:
 
 ### Tarea 1. Diseñar y crear una página web.
 **Paso 1.** Abre una ventana línea de comandos, cámbiate al directorio `DesarrolloWeb\capitulo3` e invoca el VSC.
@@ -145,5 +146,5 @@ Existen diferentes servicios de imágenes precreadas, por ejemplo: `Tabler Icons
 ![imagen](../imagenes/capitulo3/objetivo_visual.png)
 
 ## [Índice:](../README.md)<br>
-## - [Práctica 2. Instalación del Software de Desarrollo Web.](../Capítulo2/README.md)<br>
-## - [Práctica 4. Aplicación de Hojas de Estilo en Cascada.](../Capítulo4/README.md)<br>
+## [Práctica 2. Instalación del Software de Desarrollo Web.](../Capítulo2/README.md)<br>
+## [Práctica 4. Aplicación de Hojas de Estilo en Cascada.](../Capítulo4/README.md)<br>
