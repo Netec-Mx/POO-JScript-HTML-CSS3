@@ -15,6 +15,7 @@ Herramientas para el desarrollo web:
 - 60 minutos.
 
 ## Tabla de ayuda:
+
 | Requisito | Descripción|
 | --- | --- |
 | Navegador | Tener instalado Chrome, Firefox, Edge o Safari. |
