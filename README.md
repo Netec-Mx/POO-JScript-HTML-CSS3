@@ -1,4 +1,4 @@
-# Nombre del curso: POO / JScript / HTML / CSS3
+# Nombre del curso: Desarrollo Web: POO / JScript / HTML / CSS3
 
 ## Descripción del curso: 
 
