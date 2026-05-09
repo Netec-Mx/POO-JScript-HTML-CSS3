@@ -1,19 +1,34 @@
 # Práctica 1. Creando una página web con HTML5, CSS y JS.
 
-## Objetivo de la práctica:
+<br/>
+<br/>
+
+## Objetivos
 Al finalizar la práctica, serás capaz de:
 - Aprender a crear una página web.
 - Usar los elementos básicos de una página con HTML.
 - Aplicar estilos a la página creada.
 - Agregar código JavaScript.
 
+<br/>
+<br/>
+
 ## Objetivo visual:
+
 Al realizar la práctica podrás ver en el navegador la siguiente imagen:
+
+<br/>
 
 ![imagen](../imagenes/capitulo1/saludo_inicial.png)
 
+<br/>
+<br/>
+
 ## Duración aproximada:
 - 30 minutos.
+
+<br/>
+<br/>
 
 ## Tabla de ayuda:
 
@@ -21,6 +36,9 @@ Al realizar la práctica podrás ver en el navegador la siguiente imagen:
 | --- | --- |
 | Editor Código | Un editor de texto como VSCode, Sublime Text o similar. |
 | Terminal | Acceso a la terminal de comandos del sistema. |
+
+<br/>
+<br/>
 
 ## Instrucciones 
 
@@ -34,23 +52,39 @@ Crea el directorio `DesarrolloWeb`.
 
 Cámbiate al directorio `DesarrolloWeb` y crea un directorio por cada capítulo del curso.
 
+<br/>
+
 ![imagen](../imagenes/capitulo1/crear_dir__Desarrollo_Web.png)
+
+<br/>
+
 
 **Paso 2.** Cámbiate al directorio `capitulo1` e invoca el Visual Studio Code.
 
+<br/>
+
 ![imagen](../imagenes/capitulo1/cambiarse_cap1_invocar_vsc.png)
+
+<br/>
 
 **Paso 3.** Crea la página web inicial:
 
 Entra a tu editor de código y crea un nuevo archivo con la extensión `.html`, por ejemplo: `index.html.`
 
+<br/>
+
 ![imagen](../imagenes/capitulo1/crear_index_html.png)
+
+<br/>
 
 **Paso 4.** Estructura básica HTML:
 
 Escribe el siguiente código en tu archivo `index.html`:
 
+<br/>
+
 ### HTML
+
 ```
 <!DOCTYPE html>
 <html lang="es">
@@ -69,21 +103,19 @@ Escribe el siguiente código en tu archivo `index.html`:
 </html>
 ```
 
+<br/>
+
 **Explicación:**
 
-`<!DOCTYPE html>`: Declara el tipo de documento.
+- `<!DOCTYPE html>`: Declara el tipo de documento.
+- `<html>`: Raíz de la página.
+- `<head>`: Contiene metadatos y enlaces a archivos externos.
+- `<body>`: Contiene el contenido visible de la página.
+- `<title>`: Define el título que aparece en la pestaña del navegador.
+- `<link>`: Enlaza el archivo CSS styles.css.
+- `<script>`: Enlaza el archivo JavaScript script.js.
 
-`<html>`: Raíz de la página.
-
-`<head>`: Contiene metadatos y enlaces a archivos externos.
-
-`<body>`: Contiene el contenido visible de la página.
-
-`<title>`: Define el título que aparece en la pestaña del navegador.
-
-`<link>`: Enlaza el archivo CSS styles.css.
-
-`<script>`: Enlaza el archivo JavaScript script.js.
+<br/>
 
 **Paso 5.** Crea los archivos CSS y JavaScript:
 
@@ -96,6 +128,8 @@ Crea dos archivos nuevos en la misma carpeta que `index.html`:
 - Para el código JavaScript:
 
         script.js
+
+<br/>
 
 **Paso 6.** Estiliza con CSS:
 
@@ -113,10 +147,15 @@ h1 {
 }
 ```
 
+<br/>
+
 **Paso 7.** Agrega interactividad con JavaScript:
 
 En el archivo `script.js` escribe código JavaScript para agregar funcionalidad. Por ejemplo, puedes cambiar el color
 del texto al hacer clic en él:
+
+<br/>
+<br/>
 
 ### JavaScript
 
@@ -128,18 +167,28 @@ h1.addEventListener('click', () => {
 });
 ```
 
+<br/>
+
 **Paso 8.** Abre el archivo en tu navegador:
 
 Haz doble clic en `index.html` para abrirlo en tu navegador.
 
 
-### Resultado esperado:
+<br/>
+<br/>
+
+## Resultado esperado:
 
 Despliegue de la página `index.html` de manera inicial:
 
 ![imagen](../imagenes/capitulo1/saludo_inicial.png)
 
+<br/>
+
 Despliegue de la página `index.html` después de dar clic en el mensaje "¡Hola mundo!".
+
+<br/>
+<br/>
 
 ![imagen](../imagenes/capitulo1/saludo_final.png)
 ## [Índice:](../README.md)

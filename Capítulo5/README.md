@@ -1,20 +1,32 @@
 # Práctica 5. Programando con JavaScript.
 
-## Objetivo de la práctica:
+<br/>
+<br/>
+
+## Objetivos
 Al finalizar la práctica, serás capaz de:
 - Aprender a definir variables y saber manejar arreglos.
 - Usar declaraciones condicionales para controlar el flujo de ejecución.
 - Saber utilizar sentencias de ciclos para procesar elementos.
 - Crear y llamar a funciones básicas de JavaScript.
 
+<br/>
+<br/>
+
 
 ## Objetivo visual: 
 
 ![imagen](../imagenes/capitulo3/funcion_javascript.png)
 
+<br/>
+<br/>
+
 ## Duración aproximada:
 
 - 60 minutos.
+
+<br/>
+<br/>
 
 ## Tabla de ayuda:
 
@@ -25,11 +37,17 @@ Al finalizar la práctica, serás capaz de:
 | Live Preview | Instalar la extension "Live Preview" en Visual Studio Code. |
 | Terminal | Acceso a la terminal de comandos del sistema. |
 
+<br/>
+<br/>
+
 ## Instrucciones:
 
 **Paso 1.** Declaración de Variables.
 
 Para iniciar, se definieron algunas variables necesarias para nuestro programa. Utiliza una variable para almacenar el nombre de los estudiantes y otra para almacenar un arreglo de calificaciones.
+
+<br/>
+<br/>
 
 ### JavaScript
 ```
@@ -39,6 +57,8 @@ let estudiantes = ["Ana", "Luis", "Juan", "María"]; // Arreglo con los nombres 
 let calificaciones = [7, 4, 8, 5]; // Arreglo con las calificaciones correspondientes a cada estudiante
 ```
 
+<br/>
+
 **Explicación:**
 
 `minAprobatoria` es una variable que almacena la calificación mínima requerida para aprobar.
@@ -47,9 +67,14 @@ let calificaciones = [7, 4, 8, 5]; // Arreglo con las calificaciones correspondi
 
 `calificaciones` es un arreglo paralelo al de estudiantes, es decir, la calificación de Ana es 7, la de Luis es 4, y así sucesivamente.
 
+<br/>
+
 **Paso 2.** Define el Ciclo para recorrer los estudiantes.
 
 Vamos a usar un ciclo para recorrer los estudiantes y verificar si aprobaron o no con base en su calificación.
+
+<br/>
+<br/>
 
 ### JavaScript
 ```
@@ -68,15 +93,23 @@ for (let i = 0; i < estudiantes.length; i++) {
 }
 ```
 
+<br/>
+
 **Explicación:**
 
 Utilizamos un `ciclo for` para recorrer todos los elementos del arreglo de estudiantes.
 En cada iteración obtenemos el nombre y la calificación correspondiente usando `estudiantes[i]` y `calificaciones[i]`.
 Luego, usamos una `sentencia if` para verificar si la calificación es mayor o igual a `minAprobatoria`. Si es así, imprimimos que el estudiante ha aprobado. Si no, imprimimos que ha reprobado.
 
+<br/>
+<br/>
+
 **Paso 3.** Crea una función para agregar un nuevo estudiante y su calificación.
 
 Podemos crear una función para agregar un nuevo estudiante y su calificación al final de los arreglos.
+
+<br/>
+<br/>
 
 ### JavaScript
 ```
@@ -90,15 +123,21 @@ function agregarEstudiante(nombre, calificacion) {
 agregarEstudiante("Carlos", 9);
 ```
 
+<br/>
+
 **Explicación:**
 
 Definimos una función llamada `agregarEstudiante` que toma dos parámetros: el nombre del estudiante y su calificación.
 Utilizamos el método `push()` para añadir el nombre y la calificación al final de los arreglos `estudiantes` y `calificaciones`.
 Luego de definir la función, la usamos para agregar un nuevo estudiante, "Carlos", con una calificación de 9.
 
+<br/>
+
 **Paso 4.** Ejecutar el ciclo nuevamente después de agregar un nuevo estudiante.
 
     Podemos ejecutar el ciclo de nuevo para verificar los resultados con el nuevo estudiante agregado.
+
+<br/>
 
 ### JavaScript
 ```
@@ -115,9 +154,15 @@ for (let i = 0; i < estudiantes.length; i++) {
 }
 ```
 
+<br/>
+
 **Resumen del programa completo.**
 
-Aquí está el programa completo con todos los pasos descritos:
+
+El programa completo con todos los pasos descritos:
+
+<br/>
+<br/>
 
 ### JavaScript
 ```
@@ -160,6 +205,9 @@ for (let i = 0; i < estudiantes.length; i++) {
 }
 ```
 
+<br/>
+<br/>
+
 **Explicación General.**
 
 El programa comienza declarando variables y arreglos para almacenar los datos de los estudiantes.
@@ -169,6 +217,8 @@ Se define una función para agregar más estudiantes a la lista, lo que hace al 
 Finalmente, el ciclo se ejecuta de nuevo para mostrar los resultados después de agregar un nuevo estudiante.
 Este programa demuestra el uso de variables, arreglos, ciclos y sentencias condicionales de manera clara y práctica.
 
+<br/>
+<br/>
 
 ### Resultado esperado:
 
@@ -181,6 +231,10 @@ Este programa demuestra el uso de variables, arreglos, ciclos y sentencias condi
     Juan ha aprobado con una calificación de 8
     María ha reprobado con una calificación de 5
     Carlos ha aprobado con una calificación de 9
+
+<br/>
+<br/>
+
 
 ## [Índice:](../README.md)<br>
 ## [Práctica 4. Aplicación de Hojas de Estilo en Cascada.](../Capítulo4/README.md)<br>

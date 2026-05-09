@@ -1,19 +1,30 @@
 # Práctica 6. Usando el Protocolo HTTP para acceder datos en la web.
 
-## Objetivo de la práctica:
+<br/>
+<br/>
+
+## Objetivos
 Al finalizar la práctica, serás capaz de:
 - Introducción al manejo de solicitudes y errores con el protocolo HTTP.
 - Comprender el uso de Promesas en JavaScript.
 - Aprender cómo se realiza la iteración y visualización de datos.
 - Obtener los fundamentos para trabajar con APIs REST.
 
+<br/>
+<br/>
 
 ## Objetivo visual:
 
 ![diagrama1](../imagenes/Capitulo6/ciclo_protocolo_HTTP.png)
 
+<br/>
+<br/>
+
 ## Duración aproximada:
 - 60 minutos.
+
+<br/>
+<br/>
 
 ## Tabla de ayuda:
 
@@ -24,6 +35,9 @@ Al finalizar la práctica, serás capaz de:
 | Live Preview | Instalar la extension "Live Preview" en Visual Studio Code. |
 | Terminal | Acceso a la terminal de comandos del sistema. |
 
+<br/>
+<br/>
+
 ## Instrucciones:
 
 ### Tarea 1. Crear un programa en JavaScript que acceda datos en la internet.
@@ -31,6 +45,9 @@ Al finalizar la práctica, serás capaz de:
 **Paso 1:** Entender qué es la función `fetch()`.
 
 `fetch()` es una función nativa de JavaScript que nos permite hacer solicitudes HTTP desde el navegador. Es una API basada en promesas, lo que significa que devuelve una promesa que se resuelve con la respuesta de la solicitud.
+
+<br/>
+
 
 **Paso 2.** Configuración Básica del Proyecto.
 
@@ -52,11 +69,17 @@ Para iniciar, necesitas crear un archivo HTML para alojar nuestro código JavaSc
 </html>
 ```
 
+<br/>
+
 Este archivo HTML incluye una etiqueta `<script>` que enlaza a nuestro archivo de JavaScript `(script.js)`, donde escribiremos el código de la solicitud HTTP.
+
+<br/>
 
 **Paso 3.** Escribe el código JavaScript para la solicitud HTTP.
 
 Ahora crea un archivo llamado `script.js` en el mismo directorio y añade el siguiente código:
+
+<br/>
 
 ### JavaScript
 ```
@@ -88,6 +111,9 @@ fetch(url)
     });
 ```
 
+<br/>
+<br/>
+
 **Explicación paso a paso del código:**
 
 1. Definir la URL de la API:
@@ -96,15 +122,21 @@ fetch(url)
 
 Aquí, estamos definiendo una variable url que contiene la dirección de la API de donde vamos a obtener los datos. En este caso, es una lista de usuarios.
 
+<br/>
+
 2. Usar `fetch()` para hacer una solicitud HTTP GET a la URL:
 
 `fetch(url)` realiza una solicitud HTTP GET a la URL especificada. `fetch()` devuelve una promesa que se resuelve en un objeto Response.
-    
+
+<br/>
+
 3. Verificar si la respuesta es exitosa:
 
 `if (!response.ok) { throw new Error('Error en la solicitud HTTP: ' + response.status); }`
 
 En este paso verificamos si la respuesta fue exitosa comprobando la propiedad ok de la respuesta. Si no fue exitosa, lanzamos un error con el código de estado de la respuesta.
+
+<br/>
 
 4. Convertir la respuesta en un objeto JSON:
 
@@ -112,17 +144,24 @@ En este paso verificamos si la respuesta fue exitosa comprobando la propiedad ok
 
 Si la respuesta fue exitosa, la convertimos en un objeto JSON usando el método `.json()`. Esto también devuelve una promesa que se resuelve con los datos JSON.
 
+<br/>
+
 5. Manejar los datos obtenidos de la API:
 
 `console.log('Datos de los usuarios:', data);`
 
 Aquí mostramos en la consola los datos de los usuarios obtenidos de la API. También usamos un ciclo `forEach` para imprimir los nombres de los usuarios individualmente.
 
+<br/>
+
 6. Manejar errores de la solicitud HTTP:
 
 `.catch(error => { console.error('Hubo un problema con la solicitud:', error); });`
 
 Si ocurre algún error durante la solicitud (por ejemplo, si la red está desconectada o la URL no es válida), lo capturamos y mostramos en la consola.
+
+<br/>
+<br/>
 
 **Paso 4.** Prueba el programa.
 
@@ -131,6 +170,9 @@ Si ocurre algún error durante la solicitud (por ejemplo, si la red está descon
 
 > [!TIP]
 > Puedes abrir la consola presionando `F12 o Ctrl+Shift+I` y luego seleccionando la pestaña `Consola`.
+
+<br/>
+<br/>
 
 ### Resultado esperado
 
@@ -165,6 +207,8 @@ Si ocurre algún error durante la solicitud (por ejemplo, si la red está descon
   }
 }
 ```
+
+<br/>
 
 ## [Índice:](../README.md)<br>
 ## [Práctica 5. Programando con JavaScript.](../Capítulo5/README.md)<br>

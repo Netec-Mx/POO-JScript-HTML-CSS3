@@ -1,6 +1,9 @@
 # Práctica 7. Manejando Objetos con JavaScript.
 
-## Objetivo de la práctica:
+<br/>
+<br/>
+
+## Objetivos
 Al finalizar la práctica, serás capaz de:
 - Comprender el concepto de la orientación a objetos con JavaScript.
 - Familiarizarte con la herencia, uno de los pilares fundamentales de la programación orientada a objetos.
@@ -8,13 +11,22 @@ Al finalizar la práctica, serás capaz de:
 - Aplicar Polimorfismo por medio de la herencia e implementar y utilizar métodos sobrescritos.
 - Familiarizarte con la creación de Instancias de Clases.
 
+<br/>
+<br/>
+
 
 ## Objetivo visual:
 
 ![diagrama1](../imagenes/Capitulo6/orientacion_objetos.png)
 
+<br/>
+<br/>
+
 ## Duración aproximada:
 - 60 minutos.
+
+<br/>
+<br/>
 
 ## Tabla de ayuda:
 
@@ -25,11 +37,16 @@ Al finalizar la práctica, serás capaz de:
 | Live Preview | Instalar la extension "Live Preview" en Visual Studio Code. |
 | Terminal | Acceso a la terminal de comandos del sistema. |
 
+<br/>
+<br/>
+
 ## Instrucciones:
 
 **Paso 1.** Define la clase base.
 
 Vamos a comenzar definiendo una clase base llamada `Animal`. Esta clase tendrá un constructor que inicializa el nombre del animal y un método para mostrar el nombre.
+
+<br/>
 
 ### JavaScript
 ```
@@ -47,14 +64,20 @@ class Animal {
 
 ```
 
+<br/>
+
 **Explicación:**
 
 La clase `Animal` tiene un constructor que toma un parámetro `nombre` y lo asigna a una propiedad de instancia `this.nombre`.
 El método `mostrarNombre()` simplemente imprime en la consola el nombre del animal.
 
+<br/>
+
 **Paso 2.** Define la clase derivada.
 
 Ahora, vamos a definir una clase llamada `Perro` que herede de la clase `Animal`. La clase `Perro` tendrá un método adicional para mostrar un sonido característico.
+
+<br/>
 
 ### JavaScript
 ```
@@ -77,6 +100,9 @@ class Perro extends Animal {
     }
 }
 ```
+
+<br/>
+
 **Explicación:**
 
 - La clase `Perro` usa la palabra clave `extends` para heredar de la clase `Animal`.
@@ -84,9 +110,13 @@ class Perro extends Animal {
 - Añadimos una propiedad nueva, `raza`, que es específica para los perros.
 - Definimos dos métodos adicionales: `ladrar()`, que imprime un sonido característico del perro, y `mostrarRaza()`, que imprime la raza del perro.
 
+<br/>
+
 **Paso 3.** Crea Instancias y usa las Clases.
 
 Ahora, crearemos instancias de nuestras clases y utilizaremos sus métodos para ver cómo funciona la herencia.
+
+<br/>
 
 ### JavaScript
 ```
@@ -100,16 +130,23 @@ perro1.mostrarNombre(); // Salida: Este es un Firulais
 perro1.ladrar();        // Salida: Firulais está ladrando: ¡Guau, guau!
 perro1.mostrarRaza();   // Salida: Firulais es un Labrador
 ```
+
+<br/>
+
 **Explicación:**
 
 - Creamos una instancia de la clase `Animal` llamada `animal1` y llamamos a su método `mostrarNombre()`, que muestra el nombre del animal.
 - Creamos una instancia de la clase `Perro` llamada `perro1`, que es un `Labrador` llamado `Firulais`. Llamamos a los métodos `mostrarNombre()`, `ladrar()`, y `mostrarRaza()` para demostrar que `Perro` tiene acceso a métodos de la clase base y también a sus propios métodos.
+
+<br/>
 
 **Paso 4.** Polimorfismo y Métodos Sobrescritos.
 
 En herencia a veces queremos que una clase derivada tenga su propia implementación de un método que también existe en la clase base. Esto se llama sobrescribir un método.
 
 Agreguemos un método sobrescrito en la clase `Perro`.
+
+<br/>
 
 ### JavaScript
 ```
@@ -142,14 +179,19 @@ perro2.mostrarNombre(); // Salida: Este es un Rex
 perro2.ladrar();        // Salida: Rex está ladrando: ¡Guau, guau!
 ```
 
+<br/>
+
 **Explicación:**
 
 - En la clase `Perro`, sobrescribimos el método `mostrarNombre()`. Utilizamos `super.mostrarNombre()` para llamar al método original de la clase base y luego agregamos más información específica de la clase `Perro`.
 - Creamos una instancia de `Perro` llamada `perro2` y demostramos cómo el método sobrescrito `mostrarNombre()` imprime información adicional específica de los perros.
 
+<br/>
+<br/>
+
 **Resumen del programa completo.**
 
-Aquí está el código completo del ejemplo, integrando todos los pasos anteriores:
+Código completo del ejemplo, integrando todos los pasos anteriores:
 
 ### JavaScript
 ```
@@ -201,6 +243,9 @@ perro2.mostrarNombre(); // Salida: Este es un Rex
 perro2.ladrar();        // Salida: Rex está ladrando: ¡Guau, guau!
 ```
 
+<br/>
+<br/>
+
 ### Resultado esperado
 
     Este es un Animal Genérico
@@ -213,6 +258,9 @@ perro2.ladrar();        // Salida: Rex está ladrando: ¡Guau, guau!
     Este es un Rex
     Y es un perro de raza Pastor Alemán
     Rex está ladrando: ¡Guau, guau!
+
+<br/>
+<br/>
 
 ## [Índice:](../README.md)<br>
 ## [Práctica 6. Usando el Protocolo HTTP para acceder datos en la web.](../Capítulo6/README.md)<br>

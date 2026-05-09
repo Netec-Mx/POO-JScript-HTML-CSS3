@@ -1,18 +1,30 @@
 # Práctica 2. Instalación del Software de Desarrollo Web.
 
-## Objetivo de la práctica:
+<br/>
+<br/>
+
+## Objetivos
 Al finalizar la práctica, serás capaz de:
 
 - Conocer qué herramientas se utilizan en el desarrollo web.
 - Aprender a descargar e instalar las herramientas de desarrollo web.
+
+<br/>
+<br/>
 
 ## Objetivo visual:
 Herramientas para el desarrollo web: 
 
 ![imagen](../imagenes/capitulo2/Herramientas.png)
 
+<br/>
+<br/>
+
 ## Duración aproximada:
 - 60 minutos.
+
+<br/>
+<br/>
 
 ## Tabla de ayuda:
 
@@ -25,6 +37,9 @@ Herramientas para el desarrollo web:
 | Angular Framework | Instalar Angular. |
 | Terminal | Acceso a la terminal de comandos del sistema. |
 
+
+<br/>
+<br/>
 
 ## Instrucciones:
 Instala los productos para desarrollo web:
@@ -52,12 +67,19 @@ Instala los productos para desarrollo web:
       
             https://cli.angular.io/
 
+<br/>
+<br/>
 
 ### Tarea 1. Descripción de la tarea a realizar.
+
 **Paso 1.** Descarga desde https://www.google.es/chrome/browser/desktop/ el instalador de Google Chrome
         e instala la última versión.
 
+<br/>
+
 **Paso 2.** Descarga desde https://code.visualstudio.com/ Visual Studio Code e instala la última versión.
+
+<br/>
 
 **Paso 3.** Descarga desde https://nodejs.org/es/ Node.js e instala la última versión.
 
@@ -65,6 +87,9 @@ Instala los productos para desarrollo web:
 - Elige Windows Installer (.msi) 64 bits. 
 - Descarga la versión recomendada para la mayoría de las instalaciones.
 - Ejecuta el instalador.
+
+
+<br/>
 
 
 **Paso 4.** Instala Typescript.
@@ -79,14 +104,24 @@ Instala los productos para desarrollo web:
 
         npm install -g typescript
 
+<br/>
+
+
 **Paso 5.** Instala Angular.
 
 - Usando npm:
 
             npm install -g @angular/cli
 
+<br/>
+<br/>
+
 ### Resultado esperado:
 Verifica la instalación de los productos dando los siguientes comandos en la terminal de Windows:
+
+
+<br/>
+<br/>
 
 ![imagen](../imagenes/capitulo2/Instalacion.png)
 ## [Índice:](../README.md)<br>

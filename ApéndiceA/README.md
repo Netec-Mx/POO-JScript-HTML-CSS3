@@ -1,6 +1,9 @@
 # Práctica 8. Manejando Objetos con TypeScript.
 
-## Objetivo de la práctica:
+<br/>
+<br/>
+
+## Objetivos
 Al finalizar la práctica, serás capaz de:
 - Comprender el concepto de la Orientación a Objetos con TyprScript.
 - Familiarizarse con la herencia, uno de los pilares fundamentales de la programación orientada a objetos.
@@ -9,13 +12,22 @@ Al finalizar la práctica, serás capaz de:
 - Familiarizarse con la creación de Instancias de Clases.
 
 
+<br/>
+<br/>
+
 ## Objetivo visual:
 
 ![diagrama1](../imagenes/Capitulo6/OrientacionObjetosTS.png)
 
+<br/>
+<br/>
+
 ## Duración aproximada:
 
 - 60 minutos.
+
+<br/>
+<br/>
 
 ## Tabla de ayuda:
 
@@ -28,6 +40,9 @@ Al finalizar la práctica, serás capaz de:
 | Lenguaje TypeScript | Lenguaje instalado en el S.O.|
 | Terminal | Acceso a la terminal de comandos del sistema. |
 
+<br/>
+<br/>
+
 ## Instrucciones:
 
 ### Tarea 1. Crear clases Base y Derivadas en TypeScript.
@@ -36,6 +51,8 @@ Al finalizar la práctica, serás capaz de:
 Crea y abre un archivo con VSC llamado `personal.ts` en el directorios actual.
 
 Primero definiremos una clase base llamada `Persona`. Esta clase tendrá un constructor para inicializar los atributos básicos y un método para mostrar información.
+
+<br/>
 
 ### TypeScript
 ```
@@ -56,6 +73,8 @@ class Persona {
 }
 ```
 
+<br/>
+
 **Explicación:**
 
 - La clase `Persona` tiene dos propiedades: nombre (de tipo string) y edad (de tipo number).
@@ -65,6 +84,8 @@ class Persona {
 **Paso 2.** Define la clase derivada.
 
 Ahora crearemos una clase derivada llamada `Empleado` que extiende de `Persona`. Esta clase tendrá propiedades adicionales y métodos específicos.
+
+<br/>
 
 ### TypeScript
 ```
@@ -86,6 +107,9 @@ class Empleado extends Persona {
     }
 }
 ```
+
+<br/>
+
 **Explicación:**
 
 - La clase `Empleado` usa la palabra clave `extends` para indicar que hereda de la clase `Persona`.
@@ -93,8 +117,12 @@ class Empleado extends Persona {
 - `Empleado` introduce una nueva propiedad llamada `puesto` para almacenar el puesto de trabajo del empleado.
 - Se define un método adicional `mostrarInformacionEmpleado()` que llama al método `mostrarInformacion()` de la clase base y añade información específica del empleado.
 
+<br/>
+
 **Paso 3.** Crea instancias y usa las clases.
 Ahora crearemos instancias de las clases `Persona` y `Empleado`, y utilizaremos sus métodos.
+
+<br/>
 
 ### TypeScript
 ```
@@ -108,16 +136,22 @@ empleado1.mostrarInformacionEmpleado(); // Salida: Nombre: Ana, Edad: 25
                                         //         Puesto: Desarrolladora
 ```
 
+<br/>
+
 **Explicación:**
 
 - Creamos una instancia de `Persona` llamada `persona1` y llamamos a su método `mostrarInformacion()` para mostrar los datos.
 - Creamos una instancia de `Empleado` llamada `empleado1`. Llamamos al método `mostrarInformacionEmpleado()` que muestra tanto la información básica de la persona como el puesto del empleado.
+
+<br/>
 
 **Paso 4.** Polimorfismo y Métodos Sobrescritos.
 
 En herencia podemos sobrescribir métodos de la clase base en la clase derivada para cambiar su comportamiento.
 
 Modificaremos el ejemplo para sobrescribir el método `mostrarInformacion()` en la clase `Empleado`.
+
+<br/>
 
 ### TypeScript
 ```
@@ -143,14 +177,20 @@ empleado2.mostrarInformacion(); // Salida: Nombre: Carlos, Edad: 40
                                 //         Puesto: Gerente
 ```
 
+<br/>
+
 **Explicación:**
 
 - Sobrescribimos el método `mostrarInformacion()` en la clase `Empleado` para añadir información específica del empleado.
 - Usamos `super.mostrarInformacion()` para llamar al método de la clase base y luego añadimos la información adicional del puesto.
 
+<br/>
+
 **Resumen del programa completo.**
 
-Aquí está el código completo del ejemplo que integra todos los pasos anteriores:
+Código completo del ejemplo que integra todos los pasos anteriores:
+
+<br/>
 
 ### TypeScript
 ```
@@ -197,9 +237,13 @@ empleado2.mostrarInformacion(); // Salida: Nombre: Carlos, Edad: 40
                                 //         Puesto: Gerente
 ```
 
+<br/>
+
 **Paso 5.** Transpila y ejecuta el código del ejercicio.
 
 Ahora, transpila con TSC y ejecuta el código con Node.js
+
+<br/>
 
 **Línea de comandos.**
 
@@ -210,6 +254,9 @@ tsc personal.ts
 ```
 node personal.js
 ```
+
+<br/>
+<br/>
 
 ### Resultado esperado:
 
@@ -222,6 +269,9 @@ node personal.js
     
     Nombre: Carlos, Edad: 40
     Puesto: Gerente
+
+<br/>
+<br/>
 
 ## [Índice:](../README.md)<br>
 ## [Práctica 7. Manejando Objetos con JavaScript.](../Capítulo7/README.md)<br>

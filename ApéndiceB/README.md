@@ -1,17 +1,29 @@
 # Práctica 9. Creación de Componentes en Angular.
 
-## Objetivo de la práctica:
+<br/>
+<br/>
+
+## Objetivos
 Al finalizar la práctica, serás capaz de:
 
 - Conocer qué es Angular y su papel en el desarrollo de aplicaciones web.
+
+<br/>
+<br/>
 
 ## Objetivo visual:
 
 ![diagrama1](../imagenes/Capitulo6/componentes.png)
 
+<br/>
+<br/>
+
 ## Duración aproximada:
 
 - 60 minutos.
+
+<br/>
+<br/>
 
 ## Tabla de ayuda:
 
@@ -25,6 +37,9 @@ Al finalizar la práctica, serás capaz de:
 | Framework Angular | Angular instalado en el S.O.|
 | Terminal | Acceso a la terminal de comandos del sistema. |
 
+<br/>
+<br/>
+
 ## Instrucciones:
 
 ### Tarea 1. Crear un Proyecto en Angular que defina un componente básico.
@@ -33,9 +48,13 @@ Al finalizar la práctica, serás capaz de:
 
 Antes de crear un componente, necesitamos un proyecto Angular. Si no tienes uno, puedes crear un nuevo proyecto utilizando Angular CLI (Command Line Interface). Si ya tienes un proyecto existente, puedes omitir este paso.
 
+<br/>
+
 **Opcional: Paso 2.** Instala Angular CLI (si aún no lo tienes instalado):
 
     npm install -g @angular/cli
+
+<br/>
 
 **Paso 3.** Crea un nuevo proyecto Angular:
 
@@ -48,6 +67,8 @@ ng new my-angular-app
 - Navegar al directorio del proyecto:
 
     cd my-angular-app
+
+<br/>
 
 **Paso 4.** Crea un nuevo componente.
 - Ahora que tenemos un proyecto Angular, podemos crear un nuevo componente llamado `GreetingComponent`.
@@ -73,6 +94,9 @@ ng new my-angular-app
     - Este archivo contiene la clase del componente. 
     - Modificaremos la clase para incluir una propiedad que contenga el mensaje de saludo.
 
+<br/>
+<br/>
+
 ### Angular
 ```
 import { Component } from '@angular/core';
@@ -97,6 +121,8 @@ export class GreetingComponent {
 - En el constructor de la clase, inicializamos el mensaje.
 - Modificar el archivo `greeting.component.html`.
 
+<br/>
+
 **Paso 6.** Crea este archivo que contiene la plantilla HTML que define la vista del componente.
 
 ### HTML
@@ -106,12 +132,16 @@ export class GreetingComponent {
 </div>
 ```
 
+<br/>
+
 **Explicación:**
 
 - Utilizamos interpolación `({{ mensaje }})` para mostrar el valor de la propiedad mensaje en la plantilla. Angular actualizará automáticamente la vista si el valor de mensaje cambia.
 - Modificamos el archivo `greeting.component.css` (opcional):
 
     - Puedes agregar estilos básicos para mejorar la apariencia del componente.
+
+<br/>
 
 ### CSS
 ```
@@ -125,6 +155,9 @@ h1 {
 }
 ```
 
+<br/>
+<br/>
+
 **Explicación:**
 
 - Definimos un contenedor con la clase `greeting-container` y lo centramos con `text-align: center`.
@@ -137,6 +170,9 @@ h1 {
 - Abre el archivo `app.module.ts`:
     - Este archivo está en el directorio `src/app/`.
     - Agrega el `GreetingComponent` a las declaraciones.
+
+<br/>
+<br/>
 
 ### Angular
 ```
@@ -160,6 +196,9 @@ import { GreetingComponent } from './greeting/greeting.component'; // Importar e
 export class AppModule { }
 ```
 
+<br/>
+<br/>
+
 **Explicación:**
 
 - Importamos `GreetingComponent` desde su archivo correspondiente.
@@ -173,15 +212,23 @@ Ahora, vamos a utilizar `GreetingComponent` dentro de la plantilla principal de 
 
     - Este archivo se encuentra en `src/app/` y es la plantilla del componente raíz de la aplicación.
 
+
+<br/>
+
 ### HTML
 ```
 <h2>Componente Principal de la Aplicación</h2>
 <app-greeting></app-greeting> <!-- Usando el componente Greeting -->
 ```
 
+<br/>
+<br/>
+
 **Explicación:**
 
 - Usamos el `selector app-greeting` definido en `GreetingComponent` para incluir el componente de saludo dentro de la plantilla principal.
+
+<br/>
 
 **Paso 9.** Ejecuta la Aplicación.
 
@@ -196,6 +243,8 @@ Ahora, vamos a utilizar `GreetingComponent` dentro de la plantilla principal de 
     - Abre un navegador web y navega a: http://localhost:4200/:
     - Deberías ver el mensaje de saludo definido en `GreetingComponent`.
 
+<br/>
+
 **Resumen del programa completo.**
 En este ejemplo hemos cubierto los siguientes pasos para crear y usar un componente básico en Angular:
 
@@ -205,6 +254,9 @@ En este ejemplo hemos cubierto los siguientes pasos para crear y usar un compone
 - Incluye el componente en el módulo principal (AppModule).
 - Usa el componente en la plantilla principal de la aplicación (app.component.html).
 - Ejecuta la aplicación y visualiza el resultado.
+
+<br/>
+<br/>
 
 ### Resultado esperado:
 
