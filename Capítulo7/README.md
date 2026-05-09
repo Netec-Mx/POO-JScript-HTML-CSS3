@@ -262,6 +262,9 @@ perro2.ladrar();        // Salida: Rex está ladrando: ¡Guau, guau!
 <br/>
 <br/>
 
-## [Índice:](../README.md)<br>
-## [Práctica 6. Usando el Protocolo HTTP para acceder datos en la web.](../Capítulo6/README.md)<br>
-## [Práctica 8. Manejando Objetos con TypeScript.](../ApéndiceA/README.md)<br>
+---
+
+## Índice
+
+- [Práctica 6. Usando el Protocolo HTTP para acceder datos en la web.](../Capítulo6/README.md)
+- [Práctica 8. Manejando Objetos con TypeScript.](../ApéndiceA/README.md)

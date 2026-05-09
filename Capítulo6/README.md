@@ -209,7 +209,11 @@ Si ocurre algún error durante la solicitud (por ejemplo, si la red está descon
 ```
 
 <br/>
+<br/>
 
-## [Índice:](../README.md)<br>
-## [Práctica 5. Programando con JavaScript.](../Capítulo5/README.md)<br>
-## [Práctica 7. Manejando Objetos con JavaScript.](../Capítulo7/README.md)<br>
+---
+
+## Índice
+
+- [Práctica 5. Programando con JavaScript.](../Capítulo5/README.md)
+- [Práctica 7. Manejando Objetos con JavaScript.](../Capítulo7/README.md)

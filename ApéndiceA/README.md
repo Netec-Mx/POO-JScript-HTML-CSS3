@@ -273,6 +273,9 @@ node personal.js
 <br/>
 <br/>
 
-## [Índice:](../README.md)<br>
-## [Práctica 7. Manejando Objetos con JavaScript.](../Capítulo7/README.md)<br>
-## [Práctica 9. Creación de Componentes en Angular.](../ApéndiceB/README.md)<br>
+---
+
+## Índice
+
+- [Práctica 7. Manejando Objetos con JavaScript.](../Capítulo7/README.md)
+- [Práctica 9. Creación de Componentes en Angular.](../ApéndiceB/README.md)

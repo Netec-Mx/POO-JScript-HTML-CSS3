@@ -190,6 +190,15 @@ Despliegue de la página `index.html` después de dar clic en el mensaje "¡Hola
 <br/>
 <br/>
 
+---
+
 ![imagen](../imagenes/capitulo1/saludo_final.png)
-## [Índice:](../README.md)
-## - [Práctica 2. Instalación del Software de Desarrollo Web.](../Capítulo2/README.md)
+
+<br/>
+<br/>
+
+---
+
+## Índice
+
+- [Práctica 2. Instalación del Software de Desarrollo Web.](../Capítulo2/README.md)

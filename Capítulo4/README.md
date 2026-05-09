@@ -52,6 +52,12 @@ Al finalizar la práctica, serás capaz de:
 
 ![imagen](../imagenes/capitulo3/estilos_aplicados.png)
 
-## [Índice:](../README.md)<br>
-## - [Práctica 3. Diseñando y estructurando una página web con HTML.](../Capítulo3/README.md)<br>
-## - [Práctica 5. Programando con JavaScript.](../Capítulo5/README.md)<br>
+<br/>
+<br/>
+
+---
+
+## Índice
+
+- [Práctica 3. Diseñando y estructurando una página web con HTML.](../Capítulo3/README.md)
+- [Práctica 5. Programando con JavaScript.](../Capítulo5/README.md)

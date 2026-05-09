@@ -10,7 +10,10 @@ Este curso está dirigido a profesionales de TI interesados en convertirse en de
 <br/>
 <br/>
 
-## Índice:
+---
+
+## Índice
+
 - [Práctica 1. Creando una página web.](./Capítulo1/README.md)
 - [Práctica 2. Instalación del Software de Desarrollo Web.](./Capítulo2/README.md)
 - [Práctica 3. Diseñando y estructurando una página web con HTML.](./Capítulo3/README.md)
