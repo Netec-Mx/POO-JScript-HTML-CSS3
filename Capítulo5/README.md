@@ -241,4 +241,4 @@ Este programa demuestra el uso de variables, arreglos, ciclos y sentencias condi
 ## Índice
 
 - [Práctica 4. Aplicación de Hojas de Estilo en Cascada.](../Capítulo4/README.md)
-- [Práctica 6. Usando el Protocolo HTTP para acceder datos en la web.](../Capítulo6/README.md)>
+- [Práctica 6. Usando el Protocolo HTTP para acceder datos en la web.](../Capítulo6/README.md)
