@@ -44,14 +44,14 @@ El navegador ya sabe interpretar HTML y aplicar estilos visuales básicos por de
 
 ## Lista de Páginas y demos que construiremos
 
-* Demo 1 — Mi Primera (o mi segunda página, ya estamos en el capítulo 3) Página HTML
-* Demo 2 — Mini Blog Personal
-* Demo 3 — Sitio Web con Navegación
-* Demo 4 — Galería Multimedia HTML5
-* Demo 5 — Tabla de Calificaciones
-* Demo 6 — Formulario de Registro
-* Demo 7 — Portal de Noticias HTML5
-* Demo 8 — FAQ Interactivo sin JavaScript
+* [Demo 1 — Mi Primera (o mi segunda página, ya estamos en el capítulo 3) Página HTML](#demo-1---mi-primera-página-html)
+* [Demo 2 — Mini Blog Personal](#demo-2--mini-blog-personal)
+* [Demo 3 — Sitio Web con Navegación](#demo-3--sitio-web-con-navegación)
+* [Demo 4 — Galería Multimedia HTML5](#demo-4--galería-multimedia-html5)
+* [Demo 5 — Tabla de Calificaciones](#demo-5--tabla-de-calificaciones)
+* [Demo 6 — Formulario de Registro](#demo-6--formulario-de-registro)
+* [Demo 7 — Portal de Noticias HTML5](#demo-7--portal-de-noticias-html5)
+* [Demo 8 — FAQ Interactivo sin JavaScript](#demo-8--faq-interactivo-sin-javascript)
 
 <br/>
 <br/>
