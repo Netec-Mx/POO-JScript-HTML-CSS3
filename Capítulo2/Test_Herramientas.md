@@ -18,13 +18,14 @@ Validar que el navegador:
 
 ## Tabla de ayuda
 
-| Herramienta                                                                                 | Breve descripción                          | Sitio oficial     |
-| ------------------------------------------------------------------------------------------- | ------------------------------------------ | ----------------- |
-| [Google Chrome](https://www.google.com/chrome/?utm_source=chatgpt.com)                      | Navegador moderno para desarrollo frontend | Chrome oficial    |
-| [Microsoft Edge](https://www.microsoft.com/edge?utm_source=chatgpt.com)                     | Navegador basado en Chromium               | Edge oficial      |
-| [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/?utm_source=chatgpt.com) | Auditoría de performance y accesibilidad   | Google Developers |
-| [React DevTools](https://react.dev/learn/react-developer-tools?utm_source=chatgpt.com)      | Inspección de apps React                   | React oficial     |
-| [Angular DevTools](https://angular.dev/tools/devtools?utm_source=chatgpt.com)               | Inspección de apps Angular                 | Angular oficial   |
+| Herramienta                                                                                 | Breve descripción                          |
+| ------------------------------------------------------------------------------------------- | ------------------------------------------ |
+| [Google Chrome](https://www.google.com/chrome/?utm_source=chatgpt.com)                      | Navegador moderno para desarrollo frontend |
+| [Microsoft Edge](https://www.microsoft.com/edge?utm_source=chatgpt.com)                     | Navegador basado en Chromium               |
+| [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/?utm_source=chatgpt.com) | Auditoría de performance y accesibilidad   |
+| [React DevTools](https://react.dev/learn/react-developer-tools?utm_source=chatgpt.com)      | Inspección de aplicaciones React           |
+| [Angular DevTools](https://angular.dev/tools/devtools?utm_source=chatgpt.com)               | Inspección de aplicaciones Angular         |
+
 
 
 <br/><br/>
@@ -185,11 +186,11 @@ Validar:
 
 ## Tabla de ayuda
 
-| Herramienta                                                                 | Breve descripción              | Sitio oficial   |
-| --------------------------------------------------------------------------- | ------------------------------ | --------------- |
-| [Visual Studio Code](https://code.visualstudio.com/?utm_source=chatgpt.com) | Editor moderno multiplataforma | VS Code oficial |
-| [Prettier](https://prettier.io/?utm_source=chatgpt.com)                     | Formateador de código          | Prettier        |
-| [ESLint](https://eslint.org/?utm_source=chatgpt.com)                        | Análisis de calidad JS/TS      | ESLint          |
+| Herramienta                                                                 | Breve descripción              |  
+| --------------------------------------------------------------------------- | ------------------------------ |  
+| [Visual Studio Code](https://code.visualstudio.com/?utm_source=chatgpt.com) | Editor moderno multiplataforma |  
+| [Prettier](https://prettier.io/?utm_source=chatgpt.com)                     | Formateador de código          |  
+| [ESLint](https://eslint.org/?utm_source=chatgpt.com)                        | Análisis de calidad JS/TS      |  
 
 <br/><br/>
 
@@ -319,9 +320,9 @@ Validar:
 
 ## Tabla de ayuda
 
-| Herramienta                                        | Breve descripción                | Sitio oficial |
-| -------------------------------------------------- | -------------------------------- | ------------- |
-| [Git](https://git-scm.com/?utm_source=chatgpt.com) | Control de versiones distribuido | Git oficial   |
+| Herramienta                                        | Breve descripción                |  
+| -------------------------------------------------- | -------------------------------- |  
+| [Git](https://git-scm.com/?utm_source=chatgpt.com) | Control de versiones distribuido |  
 
 
 <br/><br/>
@@ -429,10 +430,10 @@ Validar:
 
 ## Tabla de ayuda
 
-| Herramienta                                           | Breve descripción  | Sitio oficial   |
-| ----------------------------------------------------- | ------------------ | --------------- |
-| [Node.js](https://nodejs.org/?utm_source=chatgpt.com) | Runtime JavaScript | Node.js oficial |
-| [npm](https://www.npmjs.com/?utm_source=chatgpt.com)  | Gestor de paquetes | npm oficial     |
+| Herramienta                                           | Breve descripción  |  
+| ----------------------------------------------------- | ------------------ |  
+| [Node.js](https://nodejs.org/?utm_source=chatgpt.com) | Runtime JavaScript |  
+| [npm](https://www.npmjs.com/?utm_source=chatgpt.com)  | Gestor de paquetes |  
 
 
 <br/><br/>
@@ -596,9 +597,9 @@ Validar:
 
 ## Tabla de ayuda
 
-| Herramienta                                                          | Breve descripción             | Sitio oficial      |
-| -------------------------------------------------------------------- | ----------------------------- | ------------------ |
-| [TypeScript](https://www.typescriptlang.org/?utm_source=chatgpt.com) | Superset tipado de JavaScript | TypeScript oficial |
+| Herramienta                                                          | Breve descripción             |  
+| -------------------------------------------------------------------- | ----------------------------- |  
+| [TypeScript](https://www.typescriptlang.org/?utm_source=chatgpt.com) | Superset tipado de JavaScript |  
 
 <br/><br/>
 
@@ -724,10 +725,10 @@ Validar:
 
 ## Tabla de ayuda
 
-| Herramienta                                                         | Breve descripción             | Sitio oficial   |
-| ------------------------------------------------------------------- | ----------------------------- | --------------- |
-| [Angular](https://angular.dev/?utm_source=chatgpt.com)              | Framework frontend            | Angular oficial |
-| [Angular CLI](https://angular.dev/tools/cli?utm_source=chatgpt.com) | Herramienta línea de comandos | Angular CLI     |
+| Herramienta                                                         | Breve descripción             |  
+| ------------------------------------------------------------------- | ----------------------------- |  
+| [Angular](https://angular.dev/?utm_source=chatgpt.com)              | Framework frontend            |  
+| [Angular CLI](https://angular.dev/tools/cli?utm_source=chatgpt.com) | Herramienta línea de comandos |  
 
 <br/><br/>
 
