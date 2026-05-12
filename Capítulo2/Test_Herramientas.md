@@ -463,11 +463,28 @@ npm init -y
 npm install cowsay
 ```
 
+<br/>
+
 Ejecutar:
 
 ```bash
 npx cowsay "Hola Frontend"
 ```
+
+<br/>
+**npm**: Node Package Manager, administrador oficial de paquetes en Node.js y se instala automáticamente junto con Node.js
+
+Sirve para:
+* Instalar librerías y frameworks de JavaScript
+* Admiistrar dependencias de proyectos
+* Ejecutar scripts
+* Publicas paquetes
+
+<br/>
+
+**npx**: Herramienta incluida con npm que permite ejecutar paquetes de Node.js sin integrarlos globalmente
+
+
 
 <br/><br/>
 
