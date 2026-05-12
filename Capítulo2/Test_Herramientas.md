@@ -20,11 +20,11 @@ Validar que el navegador:
 
 | Herramienta                                                                                 | Breve descripción                          |
 | ------------------------------------------------------------------------------------------- | ------------------------------------------ |
-| [Google Chrome](https://www.google.com/chrome/?utm_source=chatgpt.com)                      | Navegador moderno para desarrollo frontend |
-| [Microsoft Edge](https://www.microsoft.com/edge?utm_source=chatgpt.com)                     | Navegador basado en Chromium               |
-| [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview/?utm_source=chatgpt.com) | Auditoría de performance y accesibilidad   |
-| [React DevTools](https://react.dev/learn/react-developer-tools?utm_source=chatgpt.com)      | Inspección de aplicaciones React           |
-| [Angular DevTools](https://angular.dev/tools/devtools?utm_source=chatgpt.com)               | Inspección de aplicaciones Angular         |
+| [Google Chrome](https://www.google.com/chrome)                      | Navegador moderno para desarrollo frontend |
+| [Microsoft Edge](https://www.microsoft.com/edge)                     | Navegador basado en Chromium               |
+| [Lighthouse](https://developer.chrome.com/docs/lighthouse/overview) | Auditoría de performance y accesibilidad   |
+| [React DevTools](https://react.dev/learn/react-developer-tools)      | Inspección de aplicaciones React           |
+| [Angular DevTools](https://angular.dev/tools/devtools)               | Inspección de aplicaciones Angular         |
 
 
 
@@ -188,9 +188,9 @@ Validar:
 
 | Herramienta                                                                 | Breve descripción              |  
 | --------------------------------------------------------------------------- | ------------------------------ |  
-| [Visual Studio Code](https://code.visualstudio.com/?utm_source=chatgpt.com) | Editor moderno multiplataforma |  
-| [Prettier](https://prettier.io/?utm_source=chatgpt.com)                     | Formateador de código          |  
-| [ESLint](https://eslint.org/?utm_source=chatgpt.com)                        | Análisis de calidad JS/TS      |  
+| [Visual Studio Code](https://code.visualstudio.com/) | Editor moderno multiplataforma |  
+| [Prettier](https://prettier.io/)                     | Formateador de código          |  
+| [ESLint](https://eslint.org/)                        | Análisis de calidad JS/TS      |  
 
 <br/><br/>
 
@@ -299,8 +299,8 @@ Shift + Alt + F
 
 ## Referencias oficiales
 
-* [VS Code Docs](https://code.visualstudio.com/docs?utm_source=chatgpt.com)
-* [Marketplace VS Code](https://marketplace.visualstudio.com/vscode?utm_source=chatgpt.com)
+* [VS Code Docs](https://code.visualstudio.com/docs)
+* [Marketplace VS Code](https://marketplace.visualstudio.com/vscode)
 
 
 <br/><br/>
@@ -322,7 +322,7 @@ Validar:
 
 | Herramienta                                        | Breve descripción                |  
 | -------------------------------------------------- | -------------------------------- |  
-| [Git](https://git-scm.com/?utm_source=chatgpt.com) | Control de versiones distribuido |  
+| [Git](https://git-scm.com/) | Control de versiones distribuido |  
 
 
 <br/><br/>
@@ -408,8 +408,8 @@ git branch
 
 ## Referencias oficiales
 
-* [Git Documentation](https://git-scm.com/doc?utm_source=chatgpt.com)
-* [GitHub Docs](https://docs.github.com/?utm_source=chatgpt.com)
+* [Git Documentation](https://git-scm.com/doc)
+* [GitHub Docs](https://docs.github.com/)
 
 <br/><br/>
 
@@ -432,8 +432,8 @@ Validar:
 
 | Herramienta                                           | Breve descripción  |  
 | ----------------------------------------------------- | ------------------ |  
-| [Node.js](https://nodejs.org/?utm_source=chatgpt.com) | Runtime JavaScript |  
-| [npm](https://www.npmjs.com/?utm_source=chatgpt.com)  | Gestor de paquetes |  
+| [Node.js](https://nodejs.org/) | Runtime JavaScript |  
+| [npm](https://www.npmjs.com/)  | Gestor de paquetes |  
 
 
 <br/><br/>
@@ -576,8 +576,8 @@ http://localhost:3000
 
 ## Referencias oficiales
 
-* [Node.js Docs](https://nodejs.org/docs/latest/api/?utm_source=chatgpt.com)
-* [npm Docs](https://docs.npmjs.com/?utm_source=chatgpt.com)
+* [Node.js Docs](https://nodejs.org/docs/latest/api/)
+* [npm Docs](https://docs.npmjs.com/)
 
 
 <br/><br/>
@@ -599,7 +599,7 @@ Validar:
 
 | Herramienta                                                          | Breve descripción             |  
 | -------------------------------------------------------------------- | ----------------------------- |  
-| [TypeScript](https://www.typescriptlang.org/?utm_source=chatgpt.com) | Superset tipado de JavaScript |  
+| [TypeScript](https://www.typescriptlang.org/) | Superset tipado de JavaScript |  
 
 <br/><br/>
 
@@ -703,7 +703,7 @@ node saludo.js
 
 ## Referencias oficiales
 
-* [TypeScript Docs](https://www.typescriptlang.org/docs/?utm_source=chatgpt.com)
+* [TypeScript Docs](https://www.typescriptlang.org/docs/)
 
 
 <br/><br/>
@@ -727,8 +727,8 @@ Validar:
 
 | Herramienta                                                         | Breve descripción             |  
 | ------------------------------------------------------------------- | ----------------------------- |  
-| [Angular](https://angular.dev/?utm_source=chatgpt.com)              | Framework frontend            |  
-| [Angular CLI](https://angular.dev/tools/cli?utm_source=chatgpt.com) | Herramienta línea de comandos |  
+| [Angular](https://angular.dev/)              | Framework frontend            |  
+| [Angular CLI](https://angular.dev/tools/cli) | Herramienta línea de comandos |  
 
 <br/><br/>
 
@@ -847,9 +847,9 @@ ng generate component ejemplo
 
 ## Referencias oficiales
 
-* [Angular Docs](https://angular.dev/overview?utm_source=chatgpt.com)
-* [Angular CLI Docs](https://angular.dev/tools/cli?utm_source=chatgpt.com)
-* [Angular Tutorial](https://angular.dev/tutorials?utm_source=chatgpt.com)
+* [Angular Docs](https://angular.dev/overview)
+* [Angular CLI Docs](https://angular.dev/tools/cli)
+* [Angular Tutorial](https://angular.dev/tutorials)
 
 <br/><br/>
 
