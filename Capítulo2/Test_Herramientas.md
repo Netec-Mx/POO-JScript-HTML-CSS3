@@ -148,9 +148,146 @@ navigator.userAgent
 | Red HTTP     | Requests visibles       |
 
 
+<br/>
+
+### Paso 9. Instala la extensión JSON Viewer
+
+Abre en Chrome la siguiente URL de prueba:
+
+```text id="yrj4o4"
+https://jsonplaceholder.typicode.com/posts/1
+```
+
+Observa cómo el navegador muestra el contenido JSON de forma simple o en texto plano.
+
+Ahora instala una extensión tipo `JSON Viewer` desde la tienda de extensiones del navegador.
+
+Por ejemplo:
+
+* [Chrome Web Store - JSON Viewer](https://chromewebstore.google.com/search/json%20viewer)
+
+Una vez instalada:
+
+1. Recarga la página (`F5`)
+2. Vuelve a abrir la URL anterior
+3. Observa cómo ahora el JSON aparece:
+
+   * Formateado
+   * Coloreado
+   * Organizado
+   * Más fácil de leer
+
+Esta extensión es muy útil para desarrolladores frontend y backend que consumen APIs REST.
+
+<br/>
+
+### Paso 10. Lighthouse
+
+Verifica si el navegador ya incluye Lighthouse integrado.
+
+1. Abre cualquier página web
+2. Presiona:
+
+```text
+F12
+```
+
+3. Busca la pestaña:
+
+```text
+Lighthouse
+```
+
+> En algunos navegadores puede encontrarse dentro del menú `>>`.
+
+Genera un reporte sobre:
+
+* Una página sencilla, por ejemplo:
+
+  * [Wikipedia](https://www.wikipedia.org/?utm_source=chatgpt.com)
+
+* Una página corporativa moderna, por ejemplo:
+
+  * [Apple](https://www.apple.com/?utm_source=chatgpt.com)
+
+Selecciona las categorías:
+
+* Performance
+* Accessibility
+* Best Practices
+* SEO
+
+Compara los resultados obtenidos entre ambos sitios, especialmente:
+
+* Tiempo de carga
+* Puntaje SEO
+* Accesibilidad
+* Cantidad de recursos descargados
+* Uso de imágenes y scripts
+
+Esto permite observar cómo el tamaño y complejidad de una aplicación web impactan directamente en el rendimiento y calidad frontend.
+
+
+* **Notas:**
+
+El puntaje SEO es una calificación que indica qué tan optimizada está una página web para motores de búsqueda como:
+
+* [Google](https://www.google.com?utm_source=chatgpt.com)
+* [Bing](https://www.bing.com?utm_source=chatgpt.com)
+
+
+Un puntaje alto indica que la página:
+
+* Puede ser encontrada más fácilmente.
+* Sigue buenas prácticas web.
+* Es compatible con dispositivos móviles.
+* Tiene estructura HTML correcta.
+* Facilita el trabajo de indexación de buscadores.
+
+
+Interpretación:
+
+| Puntaje    | Significado      |
+| ---------- | ---------------- |
+| 90 - 100   | Excelente        |
+| 50 - 89    | Aceptable        |
+| Menor a 50 | Necesita mejoras |
+
+
+<br/>
+
+## ¿Qué analiza Lighthouse para SEO?
+
+| Elemento                   | Ejemplo                     |
+| -------------------------- | --------------------------- |
+| Título de página           | `<title>`                   |
+| Meta descripción           | `<meta name="description">` |
+| Responsive design          | Compatible móvil            |
+| HTTPS                      | Sitio seguro                |
+| Etiquetas HTML correctas   | `<header>`, `<main>`, etc.  |
+| Texto alternativo imágenes | `alt`                       |
+| Enlaces válidos            | Links funcionales           |
+
+
+<br/>
+
+El puntaje SEO NO mide:
+
+* Popularidad real del sitio
+* Ventas
+* Posicionamiento exacto en Google
+* Calidad del negocio
+
+Mide principalmente:
+
+```text id="8n3p51"
+Buenas prácticas técnicas de optimización web
+```
+
 <br/><br/>
 
-### Problemas comunes y solución
+
+## Problemas comunes y solución
 
 | Problema                 | Solución              |
 | ------------------------ | --------------------- |
@@ -166,6 +303,9 @@ navigator.userAgent
 * [Chrome DevTools Docs](https://developer.chrome.com/docs/devtools)
 * [Can I Use](https://caniuse.com/)
 * [HTML 5 Test - Dead](https://html5test.com)
+* [Google SEO Starter Guide](https://developers.google.com/search/docs/fundamentals/seo-starter-guide?utm_source=chatgpt.com)
+* [Lighthouse SEO Audits](https://developer.chrome.com/docs/lighthouse/seo/?utm_source=chatgpt.com)
+
 
 <br/><br/>
 
@@ -203,7 +343,7 @@ Validar:
 | Prettier                 | Formateo     |
 | ESLint                   | Calidad      |
 | Angular Language Service | Angular      |
-| GitLens                  | Git avanzado |
+
 
 <br/><br/>
 
@@ -359,7 +499,7 @@ git config --list
 ### Paso 4. Clonar repositorio
 
 ```bash
-git clone https://github.com/angular/angular-tour-of-heroes.git
+git clone https://github.com/Netec-Mx/POO-JScript-HTML-CSS3.git
 ```
 
 <br/><br/>
@@ -453,6 +593,10 @@ npm -v
 
 ```bash
 npm init -y
+
+# Verifica el contenido creado
+dir
+
 ```
 
 <br/><br/>
@@ -853,5 +997,8 @@ ng generate component ejemplo
 
 <br/><br/>
 
-## 
+
+---
+
+
 
