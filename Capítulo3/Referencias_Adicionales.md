@@ -46,7 +46,7 @@
 * [MDN Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn_web_development)
 * [web.dev HTML Course](https://web.dev/learn/html/)
 * [HTML 5 Test](https://html5test.com/)
-
+* [HTML/CSS/JavaScript Online](https://codepen.io/pen/)
 
 * [Unsplash](https://unsplash.com/) — Fotografías gratuitas de alta calidad
 * [Pexels](https://www.pexels.com/) — Imágenes y videos gratuitos
