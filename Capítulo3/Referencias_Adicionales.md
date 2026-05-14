@@ -45,6 +45,7 @@
 * [Nu HTML Checker](https://validator.w3.org/nu/)
 * [MDN Learn Web Development](https://developer.mozilla.org/en-US/docs/Learn_web_development)
 * [web.dev HTML Course](https://web.dev/learn/html/)
+* [HTML 5 Test](https://html5test.com/)
 
 
 * [Unsplash](https://unsplash.com/) — Fotografías gratuitas de alta calidad
