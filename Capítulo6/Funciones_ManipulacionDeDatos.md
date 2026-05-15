@@ -176,9 +176,9 @@ nombres.sort();
 console.log(nombres);
 ```
 
-<br/><br/>
+<br/>
 
-# Ejemplo con números
+## Ejemplo con números
 
 ```javascript
 let numeros = [100, 5, 20, 1];
@@ -188,8 +188,33 @@ numeros.sort();
 console.log(numeros);
 ```
 
+<br/>
 
-## Importante
+## Ejemplo con fechas
+
+```javascript
+
+let fechas = [
+  new Date("2026-01-10"),
+  new Date("2025-12-25"),
+  new Date("2026-05-01")
+];
+
+console.log(fechas);
+
+fechas.forEach(fecha => {
+  console.log(fecha.toDateString());
+});
+
+fechas.sort((a, b) => a - b);
+
+fechas.forEach(fecha => {
+  console.log(fecha.toDateString());
+});
+
+```
+
+### Importante
 
 `sort()` ordena texto por defecto.
 
