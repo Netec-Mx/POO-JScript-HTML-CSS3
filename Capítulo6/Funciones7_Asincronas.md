@@ -1,5 +1,7 @@
 # Demo / POC — Funciones Asíncronas y Comunicación HTTP en JavaScript
 
+<br/><br/>
+
 ## Objetivo
 
 Aprender el uso de funciones asíncronas y mecanismos de comunicación HTTP en JavaScript utilizando:
@@ -15,7 +17,7 @@ Aprender el uso de funciones asíncronas y mecanismos de comunicación HTTP en J
 * `getResponseHeader()`
 * `alert()`
 
----
+<br/><br/>
 
 # Resultado esperado
 
@@ -29,15 +31,13 @@ La página permitirá:
 * Mostrar encabezados de respuesta
 * Manipular dinámicamente el DOM
 
----
+<br/><br/>
 
-# Pregunta pedagógica
+## Pregunta 
 
-## ¿Cuál es la diferencia entre una operación síncrona y una asíncrona en JavaScript?
+### ¿Cuál es la diferencia entre una operación síncrona y una asíncrona?
 
----
-
-# Explicación breve
+<br/>
 
 JavaScript trabaja de manera asíncrona para evitar bloquear la interfaz del navegador.
 
@@ -48,7 +48,8 @@ Existen varias formas de trabajar con asincronía:
 * APIs modernas (`fetch`)
 * APIs clásicas (`XMLHttpRequest`)
 
----
+
+<br/><br/>
 
 # Tabla de ayuda
 
@@ -64,7 +65,8 @@ Existen varias formas de trabajar con asincronía:
 | `getResponseHeader()` | Lee encabezados HTTP                | `xhr.getResponseHeader()`  |
 | `alert()`             | Muestra mensajes emergentes         | `alert("Error")`           |
 
----
+
+<br/><br/>
 
 # Descripción de la página
 
@@ -76,52 +78,18 @@ La página tendrá:
 4. Consumo HTTP usando `XMLHttpRequest`
 5. Visualización de resultados en pantalla
 
+<br/>
+
 Se utilizará la API pública:
 
 ```text
 https://jsonplaceholder.typicode.com/users
 ```
 
----
+<br/><br/>
 
-# Estructura visual esperada
 
-```text
------------------------------------------
- DEMO ASINCRONÍA Y HTTP
------------------------------------------
-
-[Simular carga]
-
-Resultado:
-Cargando...
-Carga finalizada
-
------------------------------------------
-
-[Consumir API con fetch]
-
-Usuarios:
-- Juan
-- Ana
-
------------------------------------------
-
-[Consumir API con XMLHttpRequest]
-
-Tipo de respuesta:
-application/json
-
-Usuarios:
-- Juan
-- Ana
-
------------------------------------------
-```
-
----
-
-# Instrucciones paso a paso
+# Resume de Instrucciones 
 
 1. Crear archivo `index.html`
 2. Crear archivo `app.js`
@@ -130,9 +98,9 @@ Usuarios:
 5. Probar cada botón
 6. Abrir consola del navegador
 
----
+<br/><br/>
 
-# Código HTML completo
+# Código HTML 
 
 ```html
 <!DOCTYPE html>
@@ -183,7 +151,7 @@ Usuarios:
 </html>
 ```
 
----
+<br/><br/>
 
 # Código JavaScript completo
 
@@ -300,11 +268,8 @@ function cargarUsuariosXHR() {
 
     lista.innerHTML = "";
 
-
-
     // Constructor XMLHttpRequest()
     const xhr = new XMLHttpRequest();
-
 
 
     // ======================================================
@@ -316,7 +281,6 @@ function cargarUsuariosXHR() {
         "https://jsonplaceholder.typicode.com/users",
         true
     );
-
 
 
     // Evento cuando cambia el estado
@@ -379,9 +343,9 @@ function cargarUsuariosXHR() {
 }
 ```
 
----
+<br/><br/>
 
-# Explicación breve del código
+## Funciones usadas en el código
 
 | Parte                 | Explicación                     |
 | --------------------- | ------------------------------- |
@@ -396,9 +360,9 @@ function cargarUsuariosXHR() {
 | `getResponseHeader()` | Obtiene encabezados             |
 | `alert()`             | Muestra errores                 |
 
----
+<br/><br/>
 
-# Qué se aprende
+# Qué reforzamos?
 
 * Programación asíncrona
 * Temporizadores
@@ -408,7 +372,7 @@ function cargarUsuariosXHR() {
 * Consumo de APIs REST
 * Diferencia entre `fetch` y `XMLHttpRequest`
 
----
+<br/><br/>
 
 # Problemas comunes
 
@@ -420,7 +384,8 @@ function cargarUsuariosXHR() {
 | `404`               | URL incorrecta           |
 | `fetch` falla       | Error de red             |
 
----
+
+<br/><br/>
 
 # Conclusiones
 
@@ -429,7 +394,7 @@ function cargarUsuariosXHR() {
 * Las Promesas simplifican el manejo asíncrono.
 * JavaScript utiliza asincronía para no bloquear la interfaz.
 
----
+<br/><br/>
 
 # Referencias oficiales
 
