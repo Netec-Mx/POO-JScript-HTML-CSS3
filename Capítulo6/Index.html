@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Demo DOM JavaScript</title>
+</head>
+<body>
+
+  <h1 id="titulo">Demo Manipulación DOM</h1>
+
+  <hr>
+
+  <h2>getElementById / innerHTML</h2>
+
+  <p id="mensaje">
+    Texto original
+  </p>
+
+  <button id="btnCambiar">
+    Cambiar texto
+  </button>
+
+  <hr>
+
+  <h2>getElementsByName</h2>
+
+  <input type="radio" name="lenguaje">
+  <input type="radio" name="lenguaje">
+  <input type="radio" name="lenguaje">
+
+  <button id="btnName">
+    Contar radios
+  </button>
+
+  <hr>
+
+  <h2>getElementsByClassName</h2>
+
+  <p class="saludo">Hola</p>
+  <p class="saludo">JavaScript</p>
+
+  <button id="btnClase">
+    Contar clases
+  </button>
+
+  <hr>
+
+  <h2>createElement / appendChild</h2>
+
+  <ul id="lista">
+    <li>Elemento 1</li>
+  </ul>
+
+  <button id="btnAgregar">
+    Agregar elemento
+  </button>
+
+  <hr>
+
+  <h2>insertBefore</h2>
+
+  <button id="btnInsertar">
+    Insertar primero
+  </button>
+
+  <hr>
+
+  <h2>replaceChild</h2>
+
+  <p id="parrafoViejo">
+    Texto viejo
+  </p>
+
+  <button id="btnReemplazar">
+    Reemplazar párrafo
+  </button>
+
+  <hr>
+
+  <h2>setAttribute / removeAttribute</h2>
+
+<img
+  id="imagen"
+  src="https://dummyimage.com/100x100/000/eee"
+  alt="demo">
+
+  <br><br>
+
+  <button id="btnAtributo">
+    Cambiar ancho
+  </button>
+
+  <button id="btnRemoveAttr">
+    Quitar alt
+  </button>
+
+  <hr>
+
+  <h2>removeChild</h2>
+
+  <button id="btnEliminar">
+    Eliminar último elemento
+  </button>
+
+  <hr>
+
+  <h2>createTextNode</h2>
+
+  <div id="contenedorTexto"></div>
+
+  <button id="btnTexto">
+    Crear texto
+  </button>
+
+  <hr>
+
+  <h2>cloneNode</h2>
+
+  <p id="original">
+    Texto original para clonar
+  </p>
+
+  <button id="btnClonar">
+    Clonar nodo
+  </button>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
