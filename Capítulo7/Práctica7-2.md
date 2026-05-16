@@ -15,12 +15,12 @@ Construir una pequeña jerarquía de clases en JavaScript para demostrar:
 
 ## Diagrama de Clases
 
-[UML - class](../imagenes/clases.png)
+![UML - class](../imagenes/clases.png)
 
 
 <br/><br/>
 
-# Pilar 1 — Abstracción
+## Pilar 1 — Abstracción
 
 La clase `Figura` representa una idea general de figura geométrica.
 
@@ -32,7 +32,7 @@ No sabemos exactamente qué figura es, pero sí sabemos que:
 
 <br/><br/>
 
-# Pilar 2 — Encapsulamiento
+## Pilar 2 — Encapsulamiento
 
 Usaremos atributos privados modernos de JavaScript:
 
@@ -49,7 +49,7 @@ setColor()
 
 <br/><br/>
 
-# Pilar 3 — Herencia
+## Pilar 3 — Herencia
 
 `Cuadrado` y `Circulo` heredarán de `Figura`.
 
@@ -64,7 +64,7 @@ class Circulo extends Figura {}
 
 <br/><br/>
 
-# Pilar 4 — Polimorfismo
+## Pilar 4 — Polimorfismo
 
 Cada clase implementará su propia versión de:
 
@@ -177,7 +177,9 @@ circulo1.mostrarInfo();
 ```
 
 
-# Probando Encapsulamiento
+<br/><br/>
+
+## Probando Encapsulamiento
 
 Intentar acceder directamente al atributo privado:
 
@@ -197,7 +199,7 @@ Porque el atributo es privado, característica de JavaScript (ES2025 en adelante
 <br/><br/>
 
 
-# Probando Polimorfismo
+## Probando Polimorfismo
 
 ```javascript
 const figuras = [
@@ -332,8 +334,6 @@ circulo1.mostrarInfo();
 
 ## Desafío Final — Clase Triángulo
 
-## Objetivo
-
 Agregar una nueva figura:
 
 ```text
@@ -359,13 +359,6 @@ La clase debe:
 
 <br/><br/>
 
-## Fórmula Esperada
-
-El área del triángulo es:
-
-A = \frac{base \times altura}{2}
-
-<br/><br/>
 
 # Preguntas para compartir con tus compañeros de curso
 
@@ -374,4 +367,4 @@ A = \frac{base \times altura}{2}
 3. ¿Qué método demuestra mejor el polimorfismo?
 4. ¿Qué pasaría si `Figura` tuviera más métodos comunes?
 5. ¿Por qué `super(color)` es obligatorio?
-
+6. ¿Recuerdas algún tema de otro lenguaje sobre OOP que no vista en JavaScript?
