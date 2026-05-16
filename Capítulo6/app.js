@@ -10,7 +10,7 @@ document
       document.getElementById("mensaje");
 
     mensaje.innerHTML =
-      "<b>Texto cambiado con innerHTML</b>";
+      `<b>Texto cambiado con innerHTML ${Math.random()} </b>`;
   });
 
 
