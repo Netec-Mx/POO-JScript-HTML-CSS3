@@ -238,8 +238,11 @@ Eso es polimorfismo.
     <title>POO en JavaScript</title>
 </head>
 <body>
+
     <h1>POO en JavaScript</h1>
+
     <script src="app.js"></script>
+
 </body>
 </html>
 ```
