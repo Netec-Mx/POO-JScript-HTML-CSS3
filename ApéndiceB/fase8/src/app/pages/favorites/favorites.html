@@ -1,0 +1,16 @@
+<main class="page">
+  <h2>Mis favoritas</h2>
+
+  @if (favoritos.favoritos().length === 0) {
+    <section class="empty">
+      <h3>No tienes películas favoritas</h3>
+      <p>Agrega algunas desde el catálogo.</p>
+    </section>
+  } @else {
+    <section class="grid">
+      @for (pelicula of favoritos.favoritos(); track pelicula.id) {
+        <app-movie-card [pelicula]="pelicula"></app-movie-card>
+      }
+    </section>
+  }
+</main>

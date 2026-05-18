@@ -1,0 +1,22 @@
+<article class="card">
+  <img [src]="pelicula.imagen" [alt]="pelicula.titulo" />
+
+  <div class="content">
+    <span class="tag">{{ pelicula.genero }}</span>
+
+    <h3>{{ pelicula.titulo }}</h3>
+
+    <p>{{ pelicula.descripcion | truncar: 110 }}</p>
+
+    <button
+      (click)="alternar()"
+      [class.active]="favoritos.esFavorita(pelicula.id)"
+    >
+      @if (favoritos.esFavorita(pelicula.id)) {
+        ★ Quitar favorito
+      } @else {
+        ☆ Agregar favorito
+      }
+    </button>
+  </div>
+</article>

@@ -1,0 +1,32 @@
+<section class="toolbar">
+  <input
+    type="text"
+    placeholder="Buscar película..."
+    [value]="busqueda()"
+    (input)="actualizarBusqueda($event)"
+  />
+
+  <select [value]="genero()" (change)="actualizarGenero($event)">
+    @for (item of generos(); track item) {
+      <option [value]="item">{{ item }}</option>
+    }
+  </select>
+</section>
+
+@if (peliculasService.loading()) {
+  <section class="loading">
+    <div class="spinner"></div>
+    <p>Cargando películas...</p>
+  </section>
+} @else if (peliculasFiltradas().length === 0) {
+  <section class="empty">
+    <h3>No se encontraron películas</h3>
+    <p>Intenta con otra búsqueda o cambia el filtro.</p>
+  </section>
+} @else {
+  <section class="grid">
+    @for (pelicula of peliculasFiltradas(); track pelicula.id) {
+      <app-movie-card [pelicula]="pelicula"></app-movie-card>
+    }
+  </section>
+}
