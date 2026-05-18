@@ -1,0 +1,16 @@
+<div class="card">
+
+  <img
+    [src]="pelicula.imagen"
+    [alt]="pelicula.titulo"
+  />
+
+  <h2>
+    {{ pelicula.titulo }}
+  </h2>
+
+  <p>
+    {{ pelicula.descripcion | truncate:120 }}
+  </p>
+
+</div>

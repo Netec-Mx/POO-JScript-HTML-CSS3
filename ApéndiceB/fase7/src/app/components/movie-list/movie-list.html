@@ -1,0 +1,23 @@
+@if (cargando()) {
+
+  <h2 class="loading">
+    Cargando películas...
+  </h2>
+
+}
+
+@if (!cargando()) {
+
+  <section class="contenedor">
+
+    @for (pelicula of peliculas(); track pelicula.id) {
+
+      <app-movie-card
+        [pelicula]="pelicula">
+      </app-movie-card>
+
+    }
+
+  </section>
+
+}
