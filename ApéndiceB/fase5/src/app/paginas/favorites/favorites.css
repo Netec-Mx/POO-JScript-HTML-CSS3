@@ -1,0 +1,40 @@
+.vacio {
+  padding: 20px;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+}
+
+.favoritos {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.favorito {
+  display: flex;
+  gap: 15px;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+  padding: 15px;
+  background-color: #fafafa;
+}
+
+.favorito img {
+  width: 120px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.favorito h3 {
+  margin: 0;
+}
+
+button {
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  background-color: #d9534f;
+  color: white;
+  cursor: pointer;
+}

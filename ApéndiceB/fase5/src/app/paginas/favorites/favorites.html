@@ -1,0 +1,22 @@
+<h2>Mis favoritos</h2>
+
+@if (favoritos.favoritos().length === 0) {
+  <p class="vacio">Todavía no tienes películas favoritas.</p>
+} @else {
+  <div class="favoritos">
+    @for (pelicula of favoritos.favoritos(); track pelicula.id) {
+      <article class="favorito">
+        <img [src]="pelicula.imagen" [alt]="pelicula.titulo">
+
+        <div>
+          <h3>{{ pelicula.titulo }}</h3>
+          <p>{{ pelicula.descripcion }}</p>
+
+          <button (click)="favoritos.eliminarFavorito(pelicula.id)">
+            Eliminar
+          </button>
+        </div>
+      </article>
+    }
+  </div>
+}
