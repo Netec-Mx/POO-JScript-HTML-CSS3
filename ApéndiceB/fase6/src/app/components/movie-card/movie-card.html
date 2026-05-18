@@ -1,0 +1,19 @@
+<div class="card">
+
+  <img [src]="pelicula.imagen">
+
+  <h2>{{ pelicula.titulo }}</h2>
+
+  <p>{{ pelicula.descripcion }}</p>
+
+  <button (click)="toggleFavorito()">
+
+    @if (favoritos.esFavorito(pelicula.id)) {
+      ❤️ Quitar
+    } @else {
+      🤍 Favorito
+    }
+
+  </button>
+
+</div>

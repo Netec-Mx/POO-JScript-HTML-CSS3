@@ -1,0 +1,14 @@
+<app-header></app-header>
+
+@if (favoritos.favoritos().length === 0) {
+
+<h2 class="vacio">
+    No hay favoritos
+</h2>
+
+} @else {
+
+<app-movie-list [peliculas]="favoritos.favoritos()">
+</app-movie-list>
+
+}
