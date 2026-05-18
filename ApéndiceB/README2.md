@@ -1,474 +1,346 @@
-# FASE 1 — Mi primera pantalla Angular
 
-<br/>
+# POC/Demo: Contador reactivo con Signals en Angular
+
+<br/><br/>
 
 ## Objetivo
 
-Construir la primera pantalla Angular moderna usando:
+Crear un contador reactivo usando `signal()` para mostrar cómo Angular actualiza la vista automáticamente cuando cambia el estado.
 
-* standalone components
-* template HTML
-* interpolación
-* property binding
-* estilos básicos
-* Angular CLI
+<br/>
+<br/>
 
-## Frase corta
+Conceptos:
 
-* Angular ya puede renderizar interfaces dinámicas.
+* Estado
+* Signals
+* Lectura de signals
+* Actualización con `.set()` y `.update()`
+* Valores derivados con `computed()`
+* Eventos en Angular
+* Interpolación
 
+<br/>
 
-<br/><br/>
-
-## 1. Crear el proyecto
-
-### Instalar Angular CLI 
-
-Solo en el caso de que aún no se tenga Angular CLI, se sugiere sea Angula 17+
-
-```bash
-node --version
-
-npm --version
-
-code --version
-
-ng --version
-
-npm install -g @angular/cli
-
-ng version
-
-```
+Angular define los signals como una forma de envolver un valor para que Angular pueda saber cuándo cambia y actualizar lo que depende de él. Los `computed` son valores derivados, de solo lectura, que se recalculan cuando cambian sus signals dependientes. 
 
 <br/><br/>
 
-## Crear el proyecto
+## ¿Qué es el estado?
 
-```bash
-ng new movie-app-fase1
-```
+El **estado** es la información que puede cambiar mientras la aplicación está funcionando.
 
-Seleccionar:
+<br/>
 
-```text
-Would you like to use SSR? → No
-Which stylesheet format? → CSS
-```
+En esta demo, el estado es:
 
-### **Recomendación**
-
-Aún no uses ninguna IA
-
-<br/><br/>
-
-## Entrar al proyecto
-
-```bash
-cd movie-app-fase1
-```
-
-<br/><br/>
-
-
-## Ejecutar Angular
-
-```bash
-ng serve
-```
-
-Abrir:
-
-```text
-http://localhost:4200
-```
-
-<br/><br/>
-
-## 2. Limpiar el proyecto
-
-Eliminar TODO el contenido de:
-
-```text
-src/app/app.html
-```
-
-<br/><br/>
-
-
-# 3. Código del componente principal
-
-Archivo:
-
-```text
-src/app/app.ts
+```ts
+contador = signal(0);
 ```
 
 <br/>
 
-Reemplazar, o de preferencia solo aplicar cambios al código de la clase,
-no tocar los decoradores, por lo lo siguiente:
+Ese `0` no es solo un número. Es el valor actual del contador.
 
-```typescript
-import { Component } from '@angular/core';
+Cuando el usuario presiona botones, el estado cambia:
+
+```ts
+this.contador.update(valor => valor + 1);
+```
+
+Y cuando el estado cambia, Angular actualiza automáticamente la pantalla.
+
+<br/>
+
+## ¿Qué es un Signal?
+
+Un **signal** es un contenedor reactivo de datos.
+
+En lugar de tener esto:
+
+```ts
+contador = 0;
+```
+
+Usamos esto:
+
+```ts
+contador = signal(0);
+```
+
+La diferencia es que Angular puede "vigilar"  ese valor.
+
+Para leerlo:
+
+```ts
+contador()
+```
+
+Para cambiarlo:
+
+```ts
+contador.set(10);
+```
+
+Para actualizarlo usando el valor anterior:
+
+```ts
+contador.update(valor => valor + 1);
+```
+
+<br/>
+
+`computed()` permite crear valores reactivos derivados a partir de uno o varios signals.
+Angular recalcula automáticamente el valor cuando cambian sus dependencias.
+
+<br/>
+<br/>
+
+
+## Crear un nuevo proyecto
+
+```bash
+ng new contador-signals
+cd contador-signals
+ng serve -o
+```
+
+<br/>
+
+
+Puedes usar:
+
+```bash
+ng new contador-signals --standalone --style=css
+```
+
+<br/>
+<br/>
+
+## Código completo
+
+## `src/app/app.ts`
+
+```ts
+import { Component, computed, signal } from '@angular/core';
 
 @Component({
   selector: 'app-root',
   standalone: true,
   imports: [],
   templateUrl: './app.html',
-  styleUrl: './app.css',
+  styleUrl: './app.css'
 })
 export class App {
+  
+  contador = signal(0);
 
-  titulo = 'Interstellar';
+  doble = computed(() => this.contador() * 2);
 
-  descripcion =
-    'Un grupo de astronautas viaja por un agujero de gusano para intentar salvar a la humanidad.';
+  mensaje = computed(() => {
+    if (this.contador() === 0) {
+      return 'El contador está en cero';
+    }
 
-  imagen =
-    'https://images.unsplash.com/photo-1446776811953-b23d57bd21aa?q=80&w=1200&auto=format&fit=crop';
+    if (this.contador() > 0) {
+      return 'El contador es positivo';
+    }
 
-  botonTexto = 'Ver película';
+    return 'El contador es negativo';
+  });
 
+  incrementar() {
+    this.contador.update(valorActual => valorActual + 1);
+  }
+
+  decrementar() {
+    this.contador.update(valorActual => valorActual - 1);
+  }
+
+  reiniciar() {
+    this.contador.set(0);
+  }
 }
-```
-
-<br/><br/>
-
-# 4. Template HTML
-
-Archivo:
-
-```html
-src/app/app.html
-```
-
-<br/><br/>
-
-Código:
-
-```html
-<div class="contenedor">
-
-  <h1>{{ titulo }}</h1>
-
-  <img [src]="imagen" [alt]="titulo">
-
-  <p>
-    {{ descripcion }}
-  </p>
-
-  <button>
-    {{ botonTexto }}
-  </button>
-
-</div>
-```
-
-<br/><br/>
-
-
-# 5. Estilos CSS
-
-Archivo:
-
-```css
-src/app/app.css
 ```
 
 <br/>
+<br/>
 
-Código:
+## `src/app/app.html`
+
+```html
+<main class="contenedor">
+  <section class="card">
+    <h1>Contador reactivo con Signals</h1>
+
+    <p class="descripcion">
+      Esta demo muestra cómo Angular actualiza la pantalla automáticamente
+      cuando cambia el estado del contador.
+    </p>
+
+    <div class="contador">
+      {{ contador() }}
+    </div>
+
+    <p class="mensaje">
+      {{ mensaje() }}
+    </p>
+
+    <p>
+      Doble del contador: <strong>{{ doble() }}</strong>
+    </p>
+
+    <div class="acciones">
+      <button (click)="decrementar()">-1</button>
+      <button (click)="reiniciar()">Reiniciar</button>
+      <button (click)="incrementar()">+1</button>
+    </div>
+  </section>
+</main>
+```
+
+<br/>
+<br/>
+
+## `src/app/app.css`
 
 ```css
-body {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
+.contenedor {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #f4f6f8;
+  font-family: Arial, sans-serif;
 }
 
-.contenedor {
-  width: 400px;
-  margin: 40px auto;
-  padding: 20px;
-  background-color: #ffffff;
-  border-radius: 12px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+.card {
+  width: 420px;
+  padding: 32px;
+  border-radius: 18px;
+  background: white;
   text-align: center;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.12);
 }
 
 h1 {
+  margin-bottom: 12px;
   color: #222;
 }
 
-img {
-  width: 100%;
-  border-radius: 10px;
+.descripcion {
+  color: #666;
+  font-size: 15px;
 }
 
-p {
-  color: #555;
-  line-height: 1.5;
+.contador {
+  margin: 28px auto;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #1976d2;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+.mensaje {
+  font-size: 18px;
+  font-weight: bold;
+  color: #444;
+}
+
+.acciones {
+  display: flex;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 24px;
 }
 
 button {
-  margin-top: 16px;
-  background-color: #1976d2;
-  color: white;
   border: none;
-  border-radius: 8px;
-  padding: 12px 20px;
-  cursor: pointer;
+  padding: 12px 18px;
+  border-radius: 10px;
+  background: #1976d2;
+  color: white;
   font-size: 16px;
+  cursor: pointer;
 }
 
 button:hover {
-  background-color: #1259a7;
+  background: #125aa0;
 }
 ```
 
 <br/><br/>
 
-# 6. Resultado visual esperado
+### Signal writable
 
-La aplicación mostrará:
-
-* título de película
-* imagen grande
-* descripción
-* botón azul
-
-Con apariencia moderna tipo card.
-
-<br/><br/>
-
-# 7. Conceptos Angular introducidos
-
-## Interpolación
-
-```html
-{{ titulo }}
+```ts
+contador = signal(0);
 ```
 
-Permite mostrar datos del componente en la UI.
+Es un signal que sí puede cambiar.
 
 <br/>
 
-## Property Binding
+### Leer el valor
 
 ```html
-[src]="imagen"
+{{ contador() }}
 ```
 
-Permite conectar propiedades HTML con variables TypeScript.
+Importante: se lee como función, con paréntesis.
 
 <br/>
 
-## Standalone Component
+### Cambiar directamente
 
-```typescript
-standalone: true
+```ts
+this.contador.set(0);
 ```
 
-Angular moderno sin NgModules.
+Reemplaza el valor actual.
 
 <br/>
 
-## NgModules
+### Cambiar usando el valor anterior
 
-Un NgModule es una clase decorada con `@NgModule` que actúa como un contenedor para organizar la aplicación en bloques lógicos y cohesivos. Agrupa componentes, directivas, pipes y servicios relacionados, facilitando el mantenimiento, la reutilización del código y la carga diferida (lazy loading). 
-
-<br/><br/>
-
-## 8. Comentarios  
-
-### 1. Angular separa:
-
-* lógica → TypeScript
-* interfaz → HTML
-* estilos → CSS
-
-<br/><br/>
-
-### 2. El componente controla la pantalla
-
-```typescript
-titulo = 'Interstellar';
+```ts
+this.contador.update(valorActual => valorActual + 1);
 ```
 
-El HTML consume esa información, a través del concepto conocido como **Interpolación**
-
-<br/><br/>
-
-### 3. Angular actualiza automáticamente la UI
-
-Si cambia el valor:
-
-```typescript
-titulo = 'Batman';
-```
-
-La pantalla cambia automáticamente.
-
-<br/><br/>
-
-## 9. Errores comunes cuando iniciamos
-
-## Error 1
-
-Olvidar:
-
-```typescript
-standalone: true
-```
-
-<br/><br/>
-
-## Error 2
-
-Escribir:
-
-```html
-{ titulo }
-```
-
-en lugar de:
-
-```html
-{{ titulo }}
-```
-
-<br/><br/>
-
-## Error 3
-
-Usar:
-
-```html
-src="{{ imagen }}"
-```
-
-Conectar correctamente los atributos HTML con las propiedades de la clase en TypeScript.
+Es ideal para contadores porque depende del valor anterior.
 
 <br/>
 
-```html
-<img [src]="imagen">
+### Valor derivado
+
+```ts
+doble = computed(() => this.contador() * 2);
 ```
 
-Aquí:
-
-* src es un atributo en HTML
-* imagen es una variable TypeScript
-
-Angular enlaza ambos automáticamente usando `[atributo]="propiedad"`
+`doble` depende de `contador`. Si `contador` cambia, `doble` se actualiza automáticamente. Los `computed` son lazy y memoized: se calculan cuando se leen y Angular reutiliza el valor hasta que cambie alguna dependencia. ([Angular][1])
 
 <br/><br/>
 
-## Error 4
+## Observaciones
 
-No guardar archivos y pensar que Angular falló.
+Antes, con JavaScript tradicional, teníamos que cambiar el valor y luego actualizar manualmente el DOM. Con Angular y Signals, nosotros cambiamos el estado y Angular se encarga de reflejar el cambio en la pantalla.
 
-<br/><br/>
+El contador es el estado. Los botones modifican ese estado. La vista lee el estado usando `contador()`. Cuando el signal cambia, Angular sabe qué partes de la pantalla dependen de ese signal y las actualiza.
 
+La idea importante es:
 
-## Resultado Esperado
-
-<br/><br/>
-
-![Version Angular](../imagenes/i1.png)
-
-<br/><br/>
-
-![Fase1](../imagenes/i2.png)
+```ts
+Estado cambia -> Angular reacciona -> Vista se actualiza
+```
 
 <br/><br/>
 
-## Tabla de ayuda
+## Referencias Adicionales 
 
-# Tabla de ayuda — FASE 1 Angular
-
-| Concepto            | ¿Para qué sirve?                                    | Ejemplo                                   |
-| ------------------- | --------------------------------------------------- | ----------------------------------------- |
-| `ng new`            | Crear un nuevo proyecto Angular                     | `ng new movie-app-fase1`                  |
-| `ng serve`          | Levantar el servidor local de Angular               | `ng serve`                                |
-| `Component`         | Crear una pantalla o sección reutilizable           | `App`                                     |
-| `standalone: true`  | Crear componentes modernos sin NgModules            | `standalone: true`                        |
-| `templateUrl`       | Indicar el archivo HTML del componente              | `templateUrl: './app.html'`               |
-| `styleUrl`          | Indicar el archivo CSS del componente               | `styleUrl: './app.css'`                   |
-| Interpolación       | Mostrar variables en HTML                           | `{{ titulo }}`                            |
-| Property Binding    | Conectar propiedades HTML con TypeScript            | `[src]="imagen"`                          |
-| Variable TypeScript | Guardar datos del componente                        | `titulo = 'Interstellar'`                 |
-| HTML Template       | Definir la interfaz visual                          | `app.html`                                |
-| CSS                 | Aplicar estilos visuales                            | `button { background-color: blue; }`      |
-| Selector            | Nombre de la etiqueta del componente                | `selector: 'app-root'`                    |
-| Angular CLI         | Herramienta para crear y ejecutar proyectos Angular | `ng serve`                                |
-| `imports: []`       | Importar componentes/directivas/pipes               | `imports: []`                             |
-| `alt` en imágenes   | Texto alternativo para accesibilidad                | `[alt]="titulo"`                          |
-| Evento hover CSS    | Cambiar apariencia al pasar el mouse                | `button:hover`                            |
-| Live Reload         | Actualización automática al guardar archivos        | Angular recarga la página automáticamente |
-| Data Binding        | Sincronizar datos entre TS y HTML                   | `{{ titulo }}` y `[src]="imagen"`         |
-| TypeScript          | Lenguaje usado por Angular                          | `titulo = 'Interstellar'`                 |
-| Angular moderno     | Angular basado en standalone components y signals   | Angular 17+                               |
-
-
-<br/><br/>
-
-# Referencias adicionales — FASE 1 Angular
-
-## Documentación oficial Angular
-
-* [Angular Official Documentation](https://angular.dev)
-* [Angular CLI Overview](https://angular.dev/tools/cli)
-* [Angular Components Guide](https://angular.dev/guide/components)
-* [Angular Templates Guide](https://angular.dev/guide/templates)
-* [Angular Binding Guide](https://angular.dev/guide/templates/binding)
-
----
-
-# Conceptos HTML/CSS relacionados
-
-* [MDN HTML Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/HTML_basics)
-* [MDN CSS Basics](https://developer.mozilla.org/en-US/docs/Learn/Getting_started_with_the_web/CSS_basics)
-* [MDN img Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/img)
-* [MDN button Element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/button)
-
-<br/><br/>
-
-# TypeScript
-
-* [TypeScript Official Website](https://www.typescriptlang.org)
-* [TypeScript Handbook](https://www.typescriptlang.org/docs/handbook/intro.html)
-
-<br/><br/>
-
-# Node.js y npm
-
-* [Node.js Official Website](https://nodejs.org)
-* [npm Official Website](https://www.npmjs.com)
-
-<br/><br/>
-
-## Extensiones recomendadas para Visual Studio Code
-
-| Extensión                | ¿Para qué sirve?                        |
-| ------------------------ | --------------------------------------- |
-| Angular Language Service | Autocompletado y soporte Angular        |
-| Prettier                 | Formateo automático                     |
-| ESLint                   | Detección de errores y buenas prácticas |
-| HTML CSS Support         | Ayuda para HTML y CSS                   |
-| Material Icon Theme      | Íconos visuales en proyectos            |
-
-
-<br/><br/>
-
-## Comandos útiles Angular CLI
-
-| Comando                 | Descripción              |
-| ----------------------- | ------------------------ |
-| `ng new`                | Crear proyecto           |
-| `ng serve`              | Ejecutar servidor local  |
-| `ng generate component` | Crear componente         |
-| `ng build`              | Generar build producción |
-| `ng version`            | Ver versiones instaladas |
-
+![Signals](https://angular.dev/guide/signals)  
