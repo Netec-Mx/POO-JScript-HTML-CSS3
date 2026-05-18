@@ -142,7 +142,7 @@ Puede generar aplicaciones más grandes comparado con otras opciones ligeras.
 
 <br/>
 
-![Google Trends](https://trends.google.com/trends)
+* [Google Trends](https://trends.google.com/trends)
 
 <br/>
 
